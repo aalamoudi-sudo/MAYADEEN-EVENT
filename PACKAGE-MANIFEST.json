@@ -24,12 +24,12 @@
     {
       "path": "frontend/SHA256SUMS",
       "bytes": 33539,
-      "sha256": "7587b382becabf3fdb6e2e3850ac74bf59efbb0fe8d4b8b0c9ae7b78a3a6fc2a"
+      "sha256": "b0be97bde3eb9196b3c5323e1822460e081e694531e62b9ae6756ff4e5a43507"
     },
     {
       "path": "frontend/assets/App-C5VUntFr.css",
-      "bytes": 64071,
-      "sha256": "6a36a5c29eaa49f0e923f27665dd886a788f04ba828045f80e81da5ecde3f518"
+      "bytes": 64089,
+      "sha256": "5f7a4beb171ffd2bad478d9d64d3c59ee54623474e9e53d0e9a05f3a3616849c"
     },
     {
       "path": "frontend/assets/App-UoTRin24.js",
@@ -1404,7 +1404,7 @@
     {
       "path": "frontend/private-client-review-release-manifest.json",
       "bytes": 54739,
-      "sha256": "deedd2ff6f90bf345a002eb8a90080d627d86d385450cba761d0518916a011e8"
+      "sha256": "2625b9690706880e79232a8863f473f8b5cfde5fa5d5a51e88deeef0e3e601c2"
     },
     {
       "path": "frontend/runtime-manifests/kap-r2-native-design-revision-v1.json",
