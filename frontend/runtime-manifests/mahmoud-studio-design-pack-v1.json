@@ -1,0 +1,460 @@
+{
+  "accounting": [
+    {
+      "classifications": {
+        "CANDIDATE_NEW_ENTITY": 0,
+        "CANDIDATE_NEW_ZONE": 0,
+        "CONVERTED_AND_VISIBLE": 0,
+        "CONVERTED_NEEDS_SEMANTIC_MAPPING": 0,
+        "DUPLICATE_REFERENCE": 0,
+        "INVALID_GEOMETRY_REPAIRABLE": 0,
+        "MAPPED_TO_EXISTING_ENTITY": 0,
+        "MAPPED_TO_EXISTING_ZONE": 0,
+        "MISSING_EXTERNAL_DEPENDENCY": 0,
+        "QUARANTINED_WITH_REASON": 0,
+        "SUPERSEDED_BY_NEWER_REVISION": 315298,
+        "UNSUPPORTED_OBJECT_PRESERVED": 0
+      },
+      "classifiedObjectCount": 315298,
+      "ledgerCompression": "gzip-jsonl",
+      "ledgerRecordCount": 315298,
+      "ledgerSha256": "619e3e4912c92ae31b743dba036cd0148dfff9798cf0ee43b2a520357576214f",
+      "reconciliationStatus": "reconciled",
+      "sourceId": "DESIGN-SOURCE-KAP-MAHMOUD-3DM-001",
+      "sourceObjectCount": 315298
+    },
+    {
+      "classifications": {
+        "CANDIDATE_NEW_ENTITY": 0,
+        "CANDIDATE_NEW_ZONE": 0,
+        "CONVERTED_AND_VISIBLE": 4437,
+        "CONVERTED_NEEDS_SEMANTIC_MAPPING": 162,
+        "DUPLICATE_REFERENCE": 0,
+        "INVALID_GEOMETRY_REPAIRABLE": 65,
+        "MAPPED_TO_EXISTING_ENTITY": 375,
+        "MAPPED_TO_EXISTING_ZONE": 0,
+        "MISSING_EXTERNAL_DEPENDENCY": 830,
+        "QUARANTINED_WITH_REASON": 4,
+        "SUPERSEDED_BY_NEWER_REVISION": 0,
+        "UNSUPPORTED_OBJECT_PRESERVED": 314312
+      },
+      "classifiedObjectCount": 320185,
+      "ledgerCompression": "gzip-jsonl",
+      "ledgerRecordCount": 320185,
+      "ledgerSha256": "ebe5be6cab198881c3e7456ad3e4dae3e55fe0070f06e209c6fc30d61261a166",
+      "reconciliationStatus": "reconciled",
+      "sourceId": "DESIGN-SOURCE-KAP-RHINO-R2-001",
+      "sourceObjectCount": 320185
+    }
+  ],
+  "approvalMatrix": {
+    "acceptedSourceIntakeScope": [
+      "source accepted for internal design integration",
+      "all delivered Mahmoud files included in the design register",
+      "complete content is in scope",
+      "local derivatives allowed",
+      "founder/client-review presentation allowed",
+      "prior limitation to ممر العصور removed",
+      "unassigned objects must be preserved",
+      "no silent deletion"
+    ],
+    "pendingFounderVisualAcceptance": [
+      "complete visual and semantic world acceptance",
+      "source-to-Web3D fidelity by zone and reference view",
+      "final material and texture presentation"
+    ],
+    "openEngineeringSpatial": [
+      "engineering registration",
+      "CRS",
+      "north",
+      "origin",
+      "control points",
+      "surveyed alignment",
+      "As-Built status"
+    ],
+    "openHseOperations": [
+      "safety validation",
+      "capacity",
+      "evacuation",
+      "operational routes",
+      "opening decision"
+    ],
+    "openStudioRights": [
+      "external publication rights",
+      "third-party asset rights",
+      "final texture/material rights",
+      "distribution permissions"
+    ]
+  },
+  "contentHash": "b1cb80da50e75d80c1957caed797e3efcfd564b559186742b1b858d9762a28c3",
+  "derivative": {
+    "chunkCount": 12,
+    "chunkHashes": [
+      {
+        "byteSize": 6523048,
+        "chunkId": "DESIGN-CHUNK-KAP-R2-001",
+        "sha256": "4bd4790ce886a69d88d8da222c890e6f6a110f2e0784db038db46d1180186317"
+      },
+      {
+        "byteSize": 3784672,
+        "chunkId": "DESIGN-CHUNK-KAP-R2-002",
+        "sha256": "eb01804b5f8620e3f89f0d09f7f74c9ca5fb2fefbadaf40488ea55beb09bede8"
+      },
+      {
+        "byteSize": 4721592,
+        "chunkId": "DESIGN-CHUNK-KAP-R2-003",
+        "sha256": "ca01fc86400355fa3e6058f71128da39f52cd13b2484f4479903238592e93307"
+      },
+      {
+        "byteSize": 4378488,
+        "chunkId": "DESIGN-CHUNK-KAP-R2-004",
+        "sha256": "1c8b6024daa46642b37f53f002c1f349cd210a3648f7c0c1412626e5942c78cf"
+      },
+      {
+        "byteSize": 2052564,
+        "chunkId": "DESIGN-CHUNK-KAP-R2-005",
+        "sha256": "7b01dafae544b54bb1840da41be17b3cfa6f77be3dad5913acf63c7ba7c62ee2"
+      },
+      {
+        "byteSize": 3169016,
+        "chunkId": "DESIGN-CHUNK-KAP-R2-006",
+        "sha256": "cb38b786a617a16b4bb7ae861c7acc89287400ba2df7ec6838a5bac2316fab03"
+      },
+      {
+        "byteSize": 3163160,
+        "chunkId": "DESIGN-CHUNK-KAP-R2-007",
+        "sha256": "aa2da3038b47100cc75ff28bbb4e1633aec440a693e2cc3824d7932d2584308d"
+      },
+      {
+        "byteSize": 2865076,
+        "chunkId": "DESIGN-CHUNK-KAP-R2-008",
+        "sha256": "3fb836a39831b0922bfc85d516dd8fbdb3427ba439c00e261f461a0fdc31917f"
+      },
+      {
+        "byteSize": 3016464,
+        "chunkId": "DESIGN-CHUNK-KAP-R2-009",
+        "sha256": "0209d432cd16a2d6e4fe3a8b1f74ef07b5f19693064beb3bd84746606d8e9b2e"
+      },
+      {
+        "byteSize": 4071400,
+        "chunkId": "DESIGN-CHUNK-KAP-R2-010",
+        "sha256": "eaf995c2f589ad39615fd43a00c8174a592530a6858b2b13865f92ba9634b7f5"
+      },
+      {
+        "byteSize": 4303696,
+        "chunkId": "DESIGN-CHUNK-KAP-R2-011",
+        "sha256": "a4bd2f1bdbb921fea16ef7c50ff6d5388cfca30f802f0c2bf0fce914588f7616"
+      },
+      {
+        "byteSize": 1142404,
+        "chunkId": "DESIGN-CHUNK-KAP-R2-012",
+        "sha256": "fdbb367c274330e7ca168e1f44208e00b32be27ffee96928e3c7693ba1af73b5"
+      }
+    ],
+    "classification": "internal-founder-client-review-presentation-derivative",
+    "materials": 2896,
+    "privatePathsEmitted": false,
+    "rawSourcesBundled": false,
+    "rawSourcesTracked": false,
+    "runtimeManifestId": "MAHMOUD-STUDIO-DESIGN-PACK-v1",
+    "runtimeManifestSha256": "003acc0b323c635d9c41ea5d9e5f0771068073a7ec1a95848aae05cf7d8c7eea",
+    "textures": 0,
+    "triangles": 907718,
+    "vertices": 788067,
+    "visibleOccurrenceCount": 10072
+  },
+  "eventId": "EVENT-KAP-OPENING-2026",
+  "founderDecision": "All currently delivered Mahmoud 3D files and the design objects contained within them are approved by Ahmed as founder-approved design sources for Mayadeen’s internal platform integration and founder/client review.\n\nThe approval applies to the complete delivered design content and is not restricted to ممر العصور.\n\nThis approval does not convert the sources into engineering-registered geometry, As-Built records, HSE evidence, canonical surveyed geometry, approved operational routes, or opening-readiness evidence.",
+  "fidelityGate": {
+    "comparisonScopes": [
+      {
+        "derivativeState": "available",
+        "labelAr": "المشهد الكامل للموقع",
+        "result": "pending",
+        "scopeId": "site-overview",
+        "sourceReferenceState": "unavailable"
+      },
+      {
+        "derivativeState": "available",
+        "labelAr": "ممر العصور والعلاقة المقترحة",
+        "result": "pending",
+        "scopeId": "mamar-al-asour",
+        "sourceReferenceState": "unavailable"
+      },
+      {
+        "derivativeState": "available",
+        "labelAr": "مجموعات المصدر غير المسندة",
+        "result": "pending",
+        "scopeId": "unassigned-source-groups",
+        "sourceReferenceState": "unavailable"
+      }
+    ],
+    "fidelityClaimAllowed": false,
+    "requiredInputsAr": [
+      "مقارنة بصرية موثقة من Rhino بحسب مناطق ومناظر مرجعية",
+      "توقيع محمود على مطابقة العرض مع المصدر",
+      "مناظر مصدر مرجعية مسماة أو لقطات معتمدة"
+    ],
+    "sourceInventoryReconciled": true,
+    "sourceNamedViewCount": 0,
+    "status": "pending-source-derivative-fidelity-review",
+    "visualAcceptanceStatus": "pendingFounderVisualAcceptance"
+  },
+  "limitations": [
+    "No engineering registration, CRS, north, origin or control points.",
+    "No As-Built, HSE, route, operational-readiness or opening authority.",
+    "Source textures are omitted; neutral review materials are not approved finishes.",
+    "Non-mesh source objects remain preserved in the private object ledger and are not fabricated as browser geometry.",
+    "No production 360, live integration, AI, simulation or hardware control."
+  ],
+  "manifestId": "MANIFEST-MAHMOUD-STUDIO-DESIGN-PACK-v1",
+  "layerVisibilityReview": {
+    "dispositions": {
+      "empty-source-layer": 1070,
+      "ledger-only-or-no-safe-render-mesh": 1065,
+      "runtime-visible": 20,
+      "source-hidden-with-records": 14
+    },
+    "reconciliationStatus": "reconciled",
+    "runtimeVisibleLayerCount": 20,
+    "sourceEmptyLayerCount": 1070,
+    "sourceHiddenLayerCount": 19,
+    "sourceLayerCount": 2169,
+    "sourceNonEmptyWithoutRuntimeOccurrenceCount": 1079,
+    "sourceVisibleLayerCount": 2150
+  },
+  "packId": "MAHMOUD-STUDIO-DESIGN-PACK-v1",
+  "projectId": "PROJECT-KAP-OPENING-2026",
+  "repairRegister": {
+    "destructiveSourceRepairPerformed": false,
+    "invalidSourceObjectCount": 68,
+    "knownSourceOutlierCount": 1,
+    "missingUniqueTextureDependencyCount": 1,
+    "recordCount": 69,
+    "runtimeSha256": "dc0f07501abcd1247b1efa5b74568782c512fe8bcfc5c6066efb6028640be54e"
+  },
+  "reviewAccounting": {
+    "displayAndRepairPathCount": 5873,
+    "dispositions": {
+      "excluded-with-reason": 0,
+      "intentionally-unassigned": 4599,
+      "mapped": 375,
+      "missing-dependency": 830,
+      "quarantined": 4,
+      "repair-required": 65
+    },
+    "intentionallyUnassignedReasons": {
+      "convertedWithoutAuthoritativeIdentity": 4437,
+      "semanticMappingRequired": 162
+    },
+    "ledgerOnlyRecordCount": 314312,
+    "missingDependencyAffectedObjectCount": 830,
+    "packagedTextureCount": 0,
+    "reconciliationStatus": "reconciled",
+    "repairAndQuarantineRecordCount": 69,
+    "runtimeOccurrenceCount": 10072,
+    "sourceRecordCount": 320185,
+    "uniqueRenderedObjectCount": 5804
+  },
+  "revisionComparison": {
+    "activationStatus": "active-for-founder-review",
+    "activeFounderReviewRevisionId": "DESIGN-SOURCE-KAP-RHINO-R2-001",
+    "changedObjectSignatures": 1994,
+    "commonObjectIds": 314903,
+    "conflicts": [],
+    "documentRevision": {
+      "r1": 23,
+      "r2": 32
+    },
+    "r1OnlyObjectIds": 395,
+    "r2OnlyObjectIds": 5282,
+    "relationship": "newer-revision-supported-by-document-revision-and-object-lineage",
+    "rollbackRevisionId": "DESIGN-SOURCE-KAP-MAHMOUD-3DM-001",
+    "unchangedObjectSignatures": 312909
+  },
+  "schemaVersion": "1.0.0",
+  "semanticRegistry": {
+    "mamarAlAsourEntityId": "ENTITY-KAP-OP-006",
+    "mamarAlAsourZoneId": "ZONE-AGES-TUNNEL-001",
+    "mappingStates": {
+      "proposed": 375,
+      "unassigned": 5498
+    },
+    "recordCount": 5873,
+    "relationshipConfidence": "medium",
+    "relationshipStatus": "proposed",
+    "runtimeSha256": "772b1aa5d27b335a6b2ef8fcc91141afd3f861553622f0c2bed952a88396af4e"
+  },
+  "sources": [
+    {
+      "absoluteTolerance": 0.001,
+      "angleToleranceDegrees": 1.0,
+      "application": "Rhinoceros 8",
+      "applicationVersion": "Commercial, build 2025-09-08",
+      "blockDefinitionCount": 4925,
+      "blockInstanceCount": 11299,
+      "boundingBox": {
+        "max": [
+          1324709.107169627,
+          840.9999999996938,
+          3487.684
+        ],
+        "min": [
+          -1236.0652996159624,
+          -4588740.404211598,
+          -867.0000000000001
+        ]
+      },
+      "byteSize": 328192677,
+      "custodyClassification": "protected-local-source-not-for-git-or-review-package",
+      "documentRevision": 23,
+      "earthLocationIsSet": true,
+      "embeddedFileCount": 14,
+      "externalReferenceCount": 0,
+      "founderApprovalScope": "complete-delivered-design-content-internal-integration-and-founder-client-review",
+      "groupCount": 142,
+      "invalidGeometryObjectCount": 50,
+      "layerCount": 2169,
+      "lightCount": 0,
+      "materialCount": 2389,
+      "missingUniqueTextureDependencyCount": 1,
+      "modelBasePoint": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "namedViewCount": 0,
+      "nativeFormat": "Rhino 3DM archive v80",
+      "objectCount": 315298,
+      "objectTypeCounts": {
+        "ArcCurve": 48347,
+        "Brep": 2352,
+        "DimAngular": 1,
+        "DimLinear": 8,
+        "DimRadial": 2,
+        "Extrusion": 1220,
+        "GeometryBase": 2,
+        "Hatch": 4242,
+        "InstanceReference": 11299,
+        "Leader": 213,
+        "LineCurve": 202436,
+        "Mesh": 378,
+        "NurbsCurve": 14102,
+        "Point": 187,
+        "PolyCurve": 4395,
+        "PolylineCurve": 24815,
+        "Text": 1299
+      },
+      "pluginDataRecordCount": 2,
+      "relativeTolerance": 0.01,
+      "revisionId": "DESIGN-SOURCE-KAP-MAHMOUD-3DM-001",
+      "safeFilename": "Kaig-mastersite-R1.3dm",
+      "sha256": "e754894193c1da6660218757a19adc2f5dfacde7b2f27aefd35597d860007a9e",
+      "sourceClassification": "founder-approved-native-design-source-r1-historical",
+      "sourceId": "DESIGN-SOURCE-KAP-MAHMOUD-3DM-001",
+      "supersededByRevisionId": "DESIGN-SOURCE-KAP-RHINO-R2-001",
+      "supersedesRevisionId": null,
+      "textureReferenceCount": 1137,
+      "uniqueTextureReferenceCount": 15,
+      "units": "Meters",
+      "viewCount": 6
+    },
+    {
+      "absoluteTolerance": 0.001,
+      "angleToleranceDegrees": 1.0,
+      "application": "Rhinoceros 8",
+      "applicationVersion": "Commercial, build 2025-09-08",
+      "blockDefinitionCount": 5053,
+      "blockInstanceCount": 12728,
+      "boundingBox": {
+        "max": [
+          1324709.107169627,
+          840.9999999996938,
+          3487.684
+        ],
+        "min": [
+          -1236.0652996159624,
+          -4588740.404211598,
+          -867.0000000000001
+        ]
+      },
+      "byteSize": 348405491,
+      "custodyClassification": "protected-local-source-not-for-git-or-review-package",
+      "documentRevision": 32,
+      "earthLocationIsSet": true,
+      "embeddedFileCount": 14,
+      "externalReferenceCount": 0,
+      "founderApprovalScope": "complete-delivered-design-content-internal-integration-and-founder-client-review",
+      "groupCount": 362,
+      "invalidGeometryObjectCount": 68,
+      "layerCount": 2169,
+      "lightCount": 0,
+      "materialCount": 3113,
+      "missingUniqueTextureDependencyCount": 1,
+      "modelBasePoint": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "namedViewCount": 0,
+      "nativeFormat": "Rhino 3DM archive v80",
+      "objectCount": 320185,
+      "objectTypeCounts": {
+        "ArcCurve": 48825,
+        "Brep": 3236,
+        "DimAngular": 99,
+        "DimLinear": 8,
+        "DimRadial": 2,
+        "Extrusion": 932,
+        "GeometryBase": 2,
+        "Hatch": 4454,
+        "InstanceReference": 12728,
+        "Leader": 553,
+        "LineCurve": 203142,
+        "Mesh": 591,
+        "NurbsCurve": 14119,
+        "Point": 188,
+        "PolyCurve": 4425,
+        "PolylineCurve": 25017,
+        "Text": 1864
+      },
+      "pluginDataRecordCount": 2,
+      "relativeTolerance": 0.01,
+      "revisionId": "DESIGN-SOURCE-KAP-RHINO-R2-001",
+      "safeFilename": "Kaig-mastersite-R2.3dm",
+      "sha256": "405b44ea55d28a718ed8e5e4f837fa7c18fd1829a3c741e2c6d9110b22a80430",
+      "sourceClassification": "founder-approved-native-design-source-r2-active-review",
+      "sourceId": "DESIGN-SOURCE-KAP-RHINO-R2-001",
+      "supersededByRevisionId": null,
+      "supersedesRevisionId": "DESIGN-SOURCE-KAP-MAHMOUD-3DM-001",
+      "textureReferenceCount": 856,
+      "uniqueTextureReferenceCount": 15,
+      "units": "Meters",
+      "viewCount": 6
+    }
+  ],
+  "materialReview": {
+    "missingDependencyCount": 1,
+    "missingDependencyReferenceStatus": "redacted-from-browser-package",
+    "mode": "presentation-neutral",
+    "packagedTextureCount": 0,
+    "studioInputsRequiredAr": [
+      "ملف الخامة المفقود عبر قناة الاستوديو المحمية",
+      "حزمة الخامات النهائية",
+      "إثبات حقوق المواد والنشر والتوزيع"
+    ]
+  },
+  "truth": {
+    "asBuiltStatus": "not-as-built",
+    "engineeringRegistrationStatus": "unregistered",
+    "founderApprovedDesignSource": true,
+    "hseAuthorityStatus": "not-approved",
+    "operationalReadiness": "cannot-determine",
+    "productionPanoramaStatus": "missing",
+    "relationshipConfidence": "medium",
+    "relationshipToMamarAlAsour": "proposed",
+    "spatialRouteStatus": "not-approved"
+  },
+  "venueId": "VENUE-KAP-001",
+  "visualAcceptanceStatus": "pendingFounderVisualAcceptance"
+}

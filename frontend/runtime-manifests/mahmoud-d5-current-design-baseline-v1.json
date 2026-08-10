@@ -1,0 +1,1226 @@
+{
+  "schemaVersion": "1.0.0",
+  "manifestId": "MANIFEST-MAHMOUD-D5-CURRENT-DESIGN-BASELINE-v1",
+  "baselineId": "MAHMOUD-KAP-CURRENT-DESIGN-BASELINE-v1",
+  "projectId": "PROJECT-KAP-OPENING-2026",
+  "eventId": "EVENT-KAP-OPENING-2026",
+  "venueId": "VENUE-KAP-001",
+  "status": "founder-approved-current-design-baseline",
+  "activationStatus": "active-for-internal-platform-use",
+  "decision": {
+    "authority": "Ahmed",
+    "recordedDate": "2026-08-09",
+    "decisionAr": "يُعتمد تسليم محمود D5 الحالي كمرجع التصميم البصري الحالي لجميع المناطق المستلمة، ويُستخدم داخل المنصة. أي تسليم مختلف لاحقًا يُسجل كمراجعة جديدة غير قابلة للكتابة فوق هذا الإصدار.",
+    "scope": "internal-platform-integration-and-founder-client-review",
+    "explicitlyExcludedAuthorities": [
+      "engineering-registration",
+      "as-built",
+      "hse",
+      "spatial-route",
+      "operational-readiness",
+      "opening",
+      "external-publication-rights"
+    ]
+  },
+  "revisionPolicy": {
+    "mode": "append-only",
+    "activeRevisionId": "DESIGN-SOURCE-KAP-D5-R1-001",
+    "sameHashBehavior": "idempotent-existing-revision",
+    "differentHashBehavior": "create-new-inactive-revision-requiring-explicit-activation",
+    "rollbackPreserved": true
+  },
+  "compositeBaseline": {
+    "geometrySource": {
+      "revisionId": "DESIGN-SOURCE-KAP-RHINO-R2-001",
+      "role": "current-native-geometry-and-design-source",
+      "sha256": "405b44ea55d28a718ed8e5e4f837fa7c18fd1829a3c741e2c6d9110b22a80430",
+      "byteSize": 348405491,
+      "engineeringRegistrationStatus": "unregistered"
+    },
+    "visualExperienceSource": {
+      "revisionId": "DESIGN-SOURCE-KAP-D5-R1-001",
+      "role": "current-scenes-materials-lights-cameras-and-composition-source",
+      "sourceFilename": "D5.rar",
+      "byteSize": 5173622331,
+      "sha256": "688aa7d4d5ed018a9663ae126a2ede548846dfb12a91b2f36e3f4217789af3a2",
+      "archiveFormat": "RAR v5",
+      "nativeApplication": "D5 Render",
+      "nativeApplicationVersion": "3.1.1.0755_usa",
+      "projectId": "C25A0B96435164FA4441EAB829A55E96",
+      "projectTitle": "Site Kaga 1 1 1",
+      "sourceSaveTimestamp": "2026-08-04 20:17",
+      "custodyClassification": "private-source-not-for-git-or-review-zip"
+    }
+  },
+  "archiveIntegrity": {
+    "archiveRecordCount": 1419,
+    "leafFileCount": 1076,
+    "uncompressedByteSize": 8374361421,
+    "fullLeafStreamIntegrity": "passed",
+    "requiredProjectEntriesPresent": true
+  },
+  "inventory": {
+    "sceneCount": 33,
+    "createdCameraCount": 33,
+    "lightCount": 145,
+    "furnitureActorCount": 1074,
+    "bpFurnitureActorCount": 1,
+    "customActorCount": 238,
+    "groupCount": 1706,
+    "pathSplineActorCount": 18,
+    "scatterActorCount": 7,
+    "resourceHubItemCount": 26,
+    "recentMaterialCount": 25,
+    "declaredTextureMapCount": 140,
+    "layerCount": 7,
+    "layers": [
+      {
+        "layerId": "default0d50layer0id0000000000000",
+        "sourceName": "default",
+        "hiddenBySource": false
+      },
+      {
+        "layerId": "981F9A3C4C55A720D5D11890AE6111F8",
+        "sourceName": "Layer 1",
+        "hiddenBySource": false
+      },
+      {
+        "layerId": "6A0EB0C1427E33A9A7958A9FA62C3791",
+        "sourceName": "dinning",
+        "hiddenBySource": false
+      },
+      {
+        "layerId": "5AD5062E4BA58191912111B3E7F8AEAF",
+        "sourceName": "Vip",
+        "hiddenBySource": false
+      },
+      {
+        "layerId": "C6ED9FC54F321774B1EDD8AF5363EF6D",
+        "sourceName": "Path yara",
+        "hiddenBySource": false
+      },
+      {
+        "layerId": "99AAC2E84BA596BA8A2D6B9FFB206E12",
+        "sourceName": "Light",
+        "hiddenBySource": false
+      },
+      {
+        "layerId": "41B22ED0498E8377AD86EDB210368386",
+        "sourceName": "hide",
+        "hiddenBySource": true
+      }
+    ]
+  },
+  "dependencyAccounting": {
+    "declaredTextureTargets": 140,
+    "presentTextureTargets": 140,
+    "packagedD5aAssets": 26,
+    "presentD5aAssets": 26,
+    "packagedD5MeshAssets": 67,
+    "presentD5MeshAssets": 67,
+    "cloudManagedAssetCount": 17,
+    "cloudManagedAffectedOccurrenceCount": 201,
+    "unresolvedUniqueReferenceCount": 6,
+    "unresolvedAffectedOccurrenceCount": 349,
+    "unresolvedReferenceClasses": {
+      "likelyMetadataIcons": 3,
+      "potentiallyRenderAffectingTextures": 3
+    },
+    "portabilityStatus": "pending-clean-machine-windows-validation",
+    "operatingStatus": "usable-with-disclosed-warnings"
+  },
+  "authoredPlayback": {
+    "clipCount": 1,
+    "clipName": "Clip 1",
+    "keyframeCount": 0,
+    "shotCount": 0,
+    "pathCount": 0,
+    "interactionShowCount": 1,
+    "interactionSceneCount": 0,
+    "interactionCount": 0,
+    "stateCount": 0,
+    "triggerCount": 0,
+    "productionWalkthroughStatus": "missing"
+  },
+  "spatialTruth": {
+    "coordinateSystem": "d5-local-unregistered",
+    "sourceGeolocationStatus": "non-authoritative-default-values",
+    "units": "not-authoritatively-confirmed",
+    "north": "not-authoritatively-confirmed",
+    "crs": "missing",
+    "controlPoints": "missing",
+    "surveyedAlignment": "missing"
+  },
+  "sceneCatalog": [
+    {
+      "order": 1,
+      "sceneId": "e15b3390-7552-9b48-aa24-e408ec6322b4",
+      "sourceName": "Scene 1",
+      "displayNameAr": "مشهد تصميم محمود 01",
+      "previewUri": "/assets/projects/kap/design/mahmoud-d5-r1/previews/scene-01-142672d0d11e4c55b2e034b09820748a.png",
+      "previewSha256": "9ff5613cddbe7e26c7e482dea3918608a98b800646dc1fcc535dd37339df323c",
+      "previewByteSize": 246686,
+      "previewClassification": "source-generated-review-preview",
+      "semanticMappingStatus": "unassigned",
+      "candidateEntityId": null,
+      "candidateZoneId": null,
+      "camera": {
+        "position": {
+          "x": -97794.80130978035,
+          "y": 47128.08458187137,
+          "z": 21264.28097368443
+        },
+        "rotation": {
+          "pitch": -34.24684735294432,
+          "yaw": -95.64340634830401,
+          "roll": 0.000003628538476699743
+        },
+        "fieldOfView": 55.16424560546875,
+        "coordinateClassification": "d5-local-unregistered"
+      },
+      "renderReference": {
+        "width": 1440,
+        "height": 913,
+        "stereoscopicPanorama": false
+      }
+    },
+    {
+      "order": 2,
+      "sceneId": "3da3d806-ca42-82ee-aeb8-76d3b1f59246",
+      "sourceName": "Scene 11",
+      "displayNameAr": "مشهد تصميم محمود 02",
+      "previewUri": "/assets/projects/kap/design/mahmoud-d5-r1/previews/scene-02-943ec2bb6a664b95b94bb710aceedca8.png",
+      "previewSha256": "c55f1d3cab85041268db1c19701105fb8fa4c05bf080a0f64b5823a55d04925a",
+      "previewByteSize": 148794,
+      "previewClassification": "source-generated-review-preview",
+      "semanticMappingStatus": "unassigned",
+      "candidateEntityId": null,
+      "candidateZoneId": null,
+      "camera": {
+        "position": {
+          "x": -114951.95372125221,
+          "y": 111169.29155226635,
+          "z": 45058.17485735253
+        },
+        "rotation": {
+          "pitch": -23.813126232475387,
+          "yaw": -87.55843810458295,
+          "roll": 4.1718247697279687e-14
+        },
+        "fieldOfView": 55.16424560546875,
+        "coordinateClassification": "d5-local-unregistered"
+      },
+      "renderReference": {
+        "width": 1440,
+        "height": 913,
+        "stereoscopicPanorama": false
+      }
+    },
+    {
+      "order": 3,
+      "sceneId": "4dce95f0-5938-a8b3-bbc1-6fa411a5314a",
+      "sourceName": "Scene 16",
+      "displayNameAr": "مشهد تصميم محمود 03",
+      "previewUri": "/assets/projects/kap/design/mahmoud-d5-r1/previews/scene-03-5da12d0fcacb4425b75eedc26ad7686e.png",
+      "previewSha256": "1bd790374b317ca82603d5556aac283095877e144927db285e28af2b8380eb4d",
+      "previewByteSize": 320118,
+      "previewClassification": "source-generated-review-preview",
+      "semanticMappingStatus": "unassigned",
+      "candidateEntityId": null,
+      "candidateZoneId": null,
+      "camera": {
+        "position": {
+          "x": -92813.99805530351,
+          "y": 3246.6079762607146,
+          "z": 176.9364257405211
+        },
+        "rotation": {
+          "pitch": -0.5318907024642386,
+          "yaw": 26.213484867497375,
+          "roll": 0
+        },
+        "fieldOfView": 39.59775161743164,
+        "coordinateClassification": "d5-local-unregistered"
+      },
+      "renderReference": {
+        "width": 3840,
+        "height": 2472,
+        "stereoscopicPanorama": false
+      }
+    },
+    {
+      "order": 4,
+      "sceneId": "1cb140c4-e7f7-9308-98f7-d0ffee6440ec",
+      "sourceName": "Scene 14",
+      "displayNameAr": "مشهد تصميم محمود 04",
+      "previewUri": "/assets/projects/kap/design/mahmoud-d5-r1/previews/scene-04-25240d63b1794ddfaa13261f479cf243.png",
+      "previewSha256": "1113626711107f39f64845f75cfaeb29293f95ebc3a46c1da2f2c3f126d7681d",
+      "previewByteSize": 375799,
+      "previewClassification": "source-generated-review-preview",
+      "semanticMappingStatus": "unassigned",
+      "candidateEntityId": null,
+      "candidateZoneId": null,
+      "camera": {
+        "position": {
+          "x": -92997.96780518167,
+          "y": 2695.60089881613,
+          "z": 537.8414102635243
+        },
+        "rotation": {
+          "pitch": -16.327588740765112,
+          "yaw": 50.19129893278609,
+          "roll": 1.6571084660751696e-15
+        },
+        "fieldOfView": 48.45549011230469,
+        "coordinateClassification": "d5-local-unregistered"
+      },
+      "renderReference": {
+        "width": 3840,
+        "height": 2160,
+        "stereoscopicPanorama": false
+      }
+    },
+    {
+      "order": 5,
+      "sceneId": "76596fe8-2364-a1fd-90d5-10d98b27e9e3",
+      "sourceName": "Scene 9",
+      "displayNameAr": "مشهد تصميم محمود 05",
+      "previewUri": "/assets/projects/kap/design/mahmoud-d5-r1/previews/scene-05-a226fb51d938403ab6b4fc0ee5add869.png",
+      "previewSha256": "d56d734ddfd266c9ddaa3238a33f7ffea1f57120c700015d723391cbf2769a13",
+      "previewByteSize": 347711,
+      "previewClassification": "source-generated-review-preview",
+      "semanticMappingStatus": "unassigned",
+      "candidateEntityId": null,
+      "candidateZoneId": null,
+      "camera": {
+        "position": {
+          "x": -93465.6212548068,
+          "y": 1933.517883457176,
+          "z": 1504.4162615543494
+        },
+        "rotation": {
+          "pitch": -25.270012094639405,
+          "yaw": 56.997385718860755,
+          "roll": 5.4515387633723344e-14
+        },
+        "fieldOfView": 55.16424560546875,
+        "coordinateClassification": "d5-local-unregistered"
+      },
+      "renderReference": {
+        "width": 1440,
+        "height": 913,
+        "stereoscopicPanorama": false
+      }
+    },
+    {
+      "order": 6,
+      "sceneId": "7342f221-6466-8a6a-93cf-4cf194f9d691",
+      "sourceName": "Scene 12",
+      "displayNameAr": "مشهد تصميم محمود 06",
+      "previewUri": "/assets/projects/kap/design/mahmoud-d5-r1/previews/scene-06-bc4087e0601548b8908a9239f9061fba.png",
+      "previewSha256": "daba00445bf7c14df974750836b22c17004b255552dd30a1caee5a98e494b98e",
+      "previewByteSize": 353289,
+      "previewClassification": "source-generated-review-preview",
+      "semanticMappingStatus": "unassigned",
+      "candidateEntityId": null,
+      "candidateZoneId": null,
+      "camera": {
+        "position": {
+          "x": -94742.631110199,
+          "y": -188.43159660541005,
+          "z": 3672.657858707023
+        },
+        "rotation": {
+          "pitch": -30.768077870860687,
+          "yaw": 62.70194622970718,
+          "roll": 3.146333505997232e-14
+        },
+        "fieldOfView": 55.16424560546875,
+        "coordinateClassification": "d5-local-unregistered"
+      },
+      "renderReference": {
+        "width": 3840,
+        "height": 2160,
+        "stereoscopicPanorama": false
+      }
+    },
+    {
+      "order": 7,
+      "sceneId": "d5bf2547-9fd3-b41f-837f-f1f91e7606fd",
+      "sourceName": "Scene 15",
+      "displayNameAr": "مشهد تصميم محمود 07",
+      "previewUri": "/assets/projects/kap/design/mahmoud-d5-r1/previews/scene-07-a97b89af3e394d8ca047584379254591.png",
+      "previewSha256": "9d8904d110adc1757e3103030084350287e9393112eca361244a4247d173c305",
+      "previewByteSize": 369640,
+      "previewClassification": "source-generated-review-preview",
+      "semanticMappingStatus": "unassigned",
+      "candidateEntityId": null,
+      "candidateZoneId": null,
+      "camera": {
+        "position": {
+          "x": -92291.73524274514,
+          "y": 1722.3430422689949,
+          "z": 790.6006530188268
+        },
+        "rotation": {
+          "pitch": -15.386221612834158,
+          "yaw": 62.556767495364106,
+          "roll": 0
+        },
+        "fieldOfView": 39.59775161743164,
+        "coordinateClassification": "d5-local-unregistered"
+      },
+      "renderReference": {
+        "width": 3840,
+        "height": 2160,
+        "stereoscopicPanorama": false
+      }
+    },
+    {
+      "order": 8,
+      "sceneId": "b2a635b0-9837-87a0-98e6-c03c898d89f2",
+      "sourceName": "Scene 17",
+      "displayNameAr": "مشهد تصميم محمود 08",
+      "previewUri": "/assets/projects/kap/design/mahmoud-d5-r1/previews/scene-08-db939deaa1624eeab5b9b7321cf2804c.png",
+      "previewSha256": "458a558eec0a7b4c9ff564caa86199f76a220a208cd16d842c4635645ff37435",
+      "previewByteSize": 416856,
+      "previewClassification": "source-generated-review-preview",
+      "semanticMappingStatus": "unassigned",
+      "candidateEntityId": null,
+      "candidateZoneId": null,
+      "camera": {
+        "position": {
+          "x": -93191.25918389701,
+          "y": 5075.860558667486,
+          "z": 233.66006050755175
+        },
+        "rotation": {
+          "pitch": -2.3363268236003587,
+          "yaw": -13.420855576157583,
+          "roll": 4.973751121306081e-17
+        },
+        "fieldOfView": 39.59775161743164,
+        "coordinateClassification": "d5-local-unregistered"
+      },
+      "renderReference": {
+        "width": 3840,
+        "height": 2160,
+        "stereoscopicPanorama": false
+      }
+    },
+    {
+      "order": 9,
+      "sceneId": "83ebee3d-97cc-892f-b9ae-f90d3cf14ff6",
+      "sourceName": "Scene 20",
+      "displayNameAr": "مشهد تصميم محمود 09",
+      "previewUri": "/assets/projects/kap/design/mahmoud-d5-r1/previews/scene-09-4f96ff1a023e45ed99926f690bc75936.png",
+      "previewSha256": "c3be10318adcb656242582b604d7944c9bf7bcface2b3e0b0e7ac388d18ed729",
+      "previewByteSize": 368049,
+      "previewClassification": "source-generated-review-preview",
+      "semanticMappingStatus": "unassigned",
+      "candidateEntityId": null,
+      "candidateZoneId": null,
+      "camera": {
+        "position": {
+          "x": -92193.3995193951,
+          "y": 2016.9808548836477,
+          "z": 759.270063667137
+        },
+        "rotation": {
+          "pitch": -15.456996141032102,
+          "yaw": 64.0380824739222,
+          "roll": 5.692344604163346e-14
+        },
+        "fieldOfView": 39.59775161743164,
+        "coordinateClassification": "d5-local-unregistered"
+      },
+      "renderReference": {
+        "width": 1440,
+        "height": 927,
+        "stereoscopicPanorama": false
+      }
+    },
+    {
+      "order": 10,
+      "sceneId": "431f7950-c36c-849a-90f1-c4e680b5edb2",
+      "sourceName": "Scene 2",
+      "displayNameAr": "مشهد تصميم محمود 10",
+      "previewUri": "/assets/projects/kap/design/mahmoud-d5-r1/previews/scene-10-42d684ef163c4b7f9bad4ef2b70bfe94.png",
+      "previewSha256": "cf73a2282f3825e64c3f9eb522e69ba1def7e89f5871167f8d8e41b6f57378e9",
+      "previewByteSize": 306618,
+      "previewClassification": "source-generated-review-preview",
+      "semanticMappingStatus": "unassigned",
+      "candidateEntityId": null,
+      "candidateZoneId": null,
+      "camera": {
+        "position": {
+          "x": -91827.7753820124,
+          "y": 3095.962210927419,
+          "z": 364.0226271224735
+        },
+        "rotation": {
+          "pitch": -29.80787912572982,
+          "yaw": 61.737934223400636,
+          "roll": 0
+        },
+        "fieldOfView": 39.59775161743164,
+        "coordinateClassification": "d5-local-unregistered"
+      },
+      "renderReference": {
+        "width": 3840,
+        "height": 2434,
+        "stereoscopicPanorama": false
+      }
+    },
+    {
+      "order": 11,
+      "sceneId": "cdddfd1d-21ef-ad39-913c-9fe6a653e2c8",
+      "sourceName": "Scene 26",
+      "displayNameAr": "مشهد تصميم محمود 11",
+      "previewUri": "/assets/projects/kap/design/mahmoud-d5-r1/previews/scene-11-6b40c3ab03784233a0aef141d0744047.png",
+      "previewSha256": "85b4b0c664cacef1c0075d422b58fea2258052a7a68eb856013ef12ec14aa0e2",
+      "previewByteSize": 286707,
+      "previewClassification": "source-generated-review-preview",
+      "semanticMappingStatus": "unassigned",
+      "candidateEntityId": null,
+      "candidateZoneId": null,
+      "camera": {
+        "position": {
+          "x": -88562.16850819722,
+          "y": 2330.6201215550745,
+          "z": 744.0009172421827
+        },
+        "rotation": {
+          "pitch": -12.829278481223408,
+          "yaw": 127.8050955059127,
+          "roll": 1.467894093671298e-14
+        },
+        "fieldOfView": 39.59775161743164,
+        "coordinateClassification": "d5-local-unregistered"
+      },
+      "renderReference": {
+        "width": 3840,
+        "height": 2160,
+        "stereoscopicPanorama": false
+      }
+    },
+    {
+      "order": 12,
+      "sceneId": "03bbaadb-3705-89e8-83ae-e3bc52f89d7d",
+      "sourceName": "Scene 27",
+      "displayNameAr": "مشهد تصميم محمود 12",
+      "previewUri": "/assets/projects/kap/design/mahmoud-d5-r1/previews/scene-12-b3a74aaced9343108283aa9d03c90fb0.png",
+      "previewSha256": "6b5cba464cc572189a99b4443c930180cf6da16159b5630c59c77ebedd3d53ba",
+      "previewByteSize": 355691,
+      "previewClassification": "source-generated-review-preview",
+      "semanticMappingStatus": "unassigned",
+      "candidateEntityId": null,
+      "candidateZoneId": null,
+      "camera": {
+        "position": {
+          "x": -96306.73364380836,
+          "y": -228.53410480586115,
+          "z": 4018.4445283807245
+        },
+        "rotation": {
+          "pitch": -31.2128092302313,
+          "yaw": 47.29689112121679,
+          "roll": 5.2064130298736054e-14
+        },
+        "fieldOfView": 39.59775161743164,
+        "coordinateClassification": "d5-local-unregistered"
+      },
+      "renderReference": {
+        "width": 1440,
+        "height": 927,
+        "stereoscopicPanorama": false
+      }
+    },
+    {
+      "order": 13,
+      "sceneId": "f3940d34-7183-9766-b046-8ff3890e7dce",
+      "sourceName": "Scene 35",
+      "displayNameAr": "مشهد تصميم محمود 13",
+      "previewUri": "/assets/projects/kap/design/mahmoud-d5-r1/previews/scene-13-522cad71c449438bafa837e2dd0893c9.png",
+      "previewSha256": "914b35ef4bbaf8a4b6e4fc663e409712f1172fcd071561131524db85d31ff762",
+      "previewByteSize": 367523,
+      "previewClassification": "source-generated-review-preview",
+      "semanticMappingStatus": "unassigned",
+      "candidateEntityId": null,
+      "candidateZoneId": null,
+      "camera": {
+        "position": {
+          "x": -96195.65086997917,
+          "y": 242.02100685049857,
+          "z": 3623.8271334435476
+        },
+        "rotation": {
+          "pitch": -31.124073794144586,
+          "yaw": 44.5482995202953,
+          "roll": 0
+        },
+        "fieldOfView": 39.59775161743164,
+        "coordinateClassification": "d5-local-unregistered"
+      },
+      "renderReference": {
+        "width": 1440,
+        "height": 927,
+        "stereoscopicPanorama": false
+      }
+    },
+    {
+      "order": 14,
+      "sceneId": "e78887d8-3552-9f3a-8b75-7809d84badc7",
+      "sourceName": "Scene 19",
+      "displayNameAr": "مشهد تصميم محمود 14",
+      "previewUri": "/assets/projects/kap/design/mahmoud-d5-r1/previews/scene-14-835377bd4b9c44caa2db1de568135a5d.png",
+      "previewSha256": "8bd6b0a61247789412a8e0aeb57e95ac712a8f6322cbe06a526240c5f2b79688",
+      "previewByteSize": 335981,
+      "previewClassification": "source-generated-review-preview",
+      "semanticMappingStatus": "unassigned",
+      "candidateEntityId": null,
+      "candidateZoneId": null,
+      "camera": {
+        "position": {
+          "x": -113776.65111022796,
+          "y": 5719.666640976967,
+          "z": 975.3094082840971
+        },
+        "rotation": {
+          "pitch": -18.976170070499908,
+          "yaw": 4.2920508552510395,
+          "roll": -1.0510434491893319e-16
+        },
+        "fieldOfView": 39.59775161743164,
+        "coordinateClassification": "d5-local-unregistered"
+      },
+      "renderReference": {
+        "width": 1440,
+        "height": 913,
+        "stereoscopicPanorama": false
+      }
+    },
+    {
+      "order": 15,
+      "sceneId": "3ff93ef4-e36f-8b9e-b047-b8aa4d953374",
+      "sourceName": "Scene 21",
+      "displayNameAr": "مشهد تصميم محمود 15",
+      "previewUri": "/assets/projects/kap/design/mahmoud-d5-r1/previews/scene-15-1ea9bc4aa9fe4574a0ccdcd0aacc8a9c.png",
+      "previewSha256": "d5ae9330fc8087440e6d36425e5c7a02ac2c8c9286fd134bd32ba0c00b4dcfd3",
+      "previewByteSize": 363900,
+      "previewClassification": "source-generated-review-preview",
+      "semanticMappingStatus": "unassigned",
+      "candidateEntityId": null,
+      "candidateZoneId": null,
+      "camera": {
+        "position": {
+          "x": -105814.9018146338,
+          "y": 4329.586771802676,
+          "z": 288.07756515557435
+        },
+        "rotation": {
+          "pitch": -1.3936894750527808,
+          "yaw": 160.27082100512374,
+          "roll": 2.982652358008003e-16
+        },
+        "fieldOfView": 33.39848709106445,
+        "coordinateClassification": "d5-local-unregistered"
+      },
+      "renderReference": {
+        "width": 3840,
+        "height": 2160,
+        "stereoscopicPanorama": false
+      }
+    },
+    {
+      "order": 16,
+      "sceneId": "92929a46-b6e9-9c3c-ba3a-fd0848a923ce",
+      "sourceName": "Scene 32",
+      "displayNameAr": "مشهد تصميم محمود 16",
+      "previewUri": "/assets/projects/kap/design/mahmoud-d5-r1/previews/scene-16-d591c7b448db4d2d93c8f9f6742cd2da.png",
+      "previewSha256": "a362e564a9a69889e21dccb94393343d2509589989f2cef77054f4504c9c0c1f",
+      "previewByteSize": 348976,
+      "previewClassification": "source-generated-review-preview",
+      "semanticMappingStatus": "unassigned",
+      "candidateEntityId": null,
+      "candidateZoneId": null,
+      "camera": {
+        "position": {
+          "x": -105814.9018146338,
+          "y": 4329.586771802675,
+          "z": 288.07756515557435
+        },
+        "rotation": {
+          "pitch": -1.3936894750527808,
+          "yaw": 160.27082100512374,
+          "roll": 2.982652358008003e-16
+        },
+        "fieldOfView": 39.59775161743164,
+        "coordinateClassification": "d5-local-unregistered"
+      },
+      "renderReference": {
+        "width": 1440,
+        "height": 913,
+        "stereoscopicPanorama": false
+      }
+    },
+    {
+      "order": 17,
+      "sceneId": "24825baa-1c8e-9803-85be-d43214ebe833",
+      "sourceName": "Scene 22",
+      "displayNameAr": "مشهد تصميم محمود 17",
+      "previewUri": "/assets/projects/kap/design/mahmoud-d5-r1/previews/scene-17-2d0e4754faa84029816ce09a6b08ab81.png",
+      "previewSha256": "88c8f15c51ae722b8af4934f5e21eb295e55991ebb0dfb68a85103c6b23d2ab9",
+      "previewByteSize": 346394,
+      "previewClassification": "source-generated-review-preview",
+      "semanticMappingStatus": "unassigned",
+      "candidateEntityId": null,
+      "candidateZoneId": null,
+      "camera": {
+        "position": {
+          "x": -113772.28062793823,
+          "y": 5573.287563460936,
+          "z": 743.4433040744543
+        },
+        "rotation": {
+          "pitch": -13.591880988363073,
+          "yaw": 4.390441379532106,
+          "roll": 3.374450834954321e-15
+        },
+        "fieldOfView": 39.59775161743164,
+        "coordinateClassification": "d5-local-unregistered"
+      },
+      "renderReference": {
+        "width": 3840,
+        "height": 2160,
+        "stereoscopicPanorama": false
+      }
+    },
+    {
+      "order": 18,
+      "sceneId": "df34276e-a2a2-b614-9592-6fb6ff7cdbdc",
+      "sourceName": "Scene 23",
+      "displayNameAr": "مشهد تصميم محمود 18",
+      "previewUri": "/assets/projects/kap/design/mahmoud-d5-r1/previews/scene-18-4b5d52f158ec4fb496e9e5312fe91433.png",
+      "previewSha256": "94366389bc83f961d76a623a95e901000a2e420f438f7d1946831272662c8b4d",
+      "previewByteSize": 333782,
+      "previewClassification": "source-generated-review-preview",
+      "semanticMappingStatus": "unassigned",
+      "candidateEntityId": null,
+      "candidateZoneId": null,
+      "camera": {
+        "position": {
+          "x": -112669.97620402258,
+          "y": 6055.368396248239,
+          "z": 321.47128254787
+        },
+        "rotation": {
+          "pitch": -14.224724673699486,
+          "yaw": -3.4865151876359732,
+          "roll": 0
+        },
+        "fieldOfView": 39.59775161743164,
+        "coordinateClassification": "d5-local-unregistered"
+      },
+      "renderReference": {
+        "width": 1440,
+        "height": 913,
+        "stereoscopicPanorama": false
+      }
+    },
+    {
+      "order": 19,
+      "sceneId": "fdce4e80-05a6-a732-b9d1-f0b6fede3936",
+      "sourceName": "Scene 24",
+      "displayNameAr": "مشهد تصميم محمود 19",
+      "previewUri": "/assets/projects/kap/design/mahmoud-d5-r1/previews/scene-19-952d77606bb9430c9f8afe804633e044.png",
+      "previewSha256": "4bb2d642e4432f6693dc96bc80b6c85076e5e47a380034687dccccbf2fd24619",
+      "previewByteSize": 365204,
+      "previewClassification": "source-generated-review-preview",
+      "semanticMappingStatus": "unassigned",
+      "candidateEntityId": null,
+      "candidateZoneId": null,
+      "camera": {
+        "position": {
+          "x": -106983.40327376599,
+          "y": 4610.6549120161535,
+          "z": 437.9166616096666
+        },
+        "rotation": {
+          "pitch": -3.368514411181934,
+          "yaw": 161.66602273287165,
+          "roll": 5.973861261022965e-16
+        },
+        "fieldOfView": 39.59775161743164,
+        "coordinateClassification": "d5-local-unregistered"
+      },
+      "renderReference": {
+        "width": 1440,
+        "height": 913,
+        "stereoscopicPanorama": false
+      }
+    },
+    {
+      "order": 20,
+      "sceneId": "83d24fb7-0f87-9608-9bc5-6862a811e94e",
+      "sourceName": "Scene 29",
+      "displayNameAr": "مشهد تصميم محمود 20",
+      "previewUri": "/assets/projects/kap/design/mahmoud-d5-r1/previews/scene-20-57e9d15ee0c3498cb39a808d463757ae.png",
+      "previewSha256": "55b682ae1cdc1252191b66ed1a8b649217305b96d00faf6a97b66de6f328de7c",
+      "previewByteSize": 356595,
+      "previewClassification": "source-generated-review-preview",
+      "semanticMappingStatus": "unassigned",
+      "candidateEntityId": null,
+      "candidateZoneId": null,
+      "camera": {
+        "position": {
+          "x": -110818.0380012187,
+          "y": 5406.739919562024,
+          "z": 615.6075015757149
+        },
+        "rotation": {
+          "pitch": -28.92134986634642,
+          "yaw": 7.18028825895815,
+          "roll": 1.1809650573755867e-14
+        },
+        "fieldOfView": 39.59775161743164,
+        "coordinateClassification": "d5-local-unregistered"
+      },
+      "renderReference": {
+        "width": 1440,
+        "height": 913,
+        "stereoscopicPanorama": false
+      }
+    },
+    {
+      "order": 21,
+      "sceneId": "8cb35abf-889b-ad1f-95ee-349a8c061277",
+      "sourceName": "Scene 28",
+      "displayNameAr": "مشهد تصميم محمود 21",
+      "previewUri": "/assets/projects/kap/design/mahmoud-d5-r1/previews/scene-21-df1887ddf9e24e0d8ea1f88cf6e26b5a.png",
+      "previewSha256": "288ca76302dfb1f69032378f0ed3ba5a2219c9866591851be1e8d3d6324a7461",
+      "previewByteSize": 365378,
+      "previewClassification": "source-generated-review-preview",
+      "semanticMappingStatus": "unassigned",
+      "candidateEntityId": null,
+      "candidateZoneId": null,
+      "camera": {
+        "position": {
+          "x": -107586.01095434911,
+          "y": 5810.894551360814,
+          "z": 973.4551219263606
+        },
+        "rotation": {
+          "pitch": -19.883072032623716,
+          "yaw": -172.3490479448635,
+          "roll": 1.395145299917659e-14
+        },
+        "fieldOfView": 39.59775161743164,
+        "coordinateClassification": "d5-local-unregistered"
+      },
+      "renderReference": {
+        "width": 3840,
+        "height": 2160,
+        "stereoscopicPanorama": false
+      }
+    },
+    {
+      "order": 22,
+      "sceneId": "fec73b31-4eb4-9e36-8936-2281044b74a8",
+      "sourceName": "Scene 30",
+      "displayNameAr": "مشهد تصميم محمود 22",
+      "previewUri": "/assets/projects/kap/design/mahmoud-d5-r1/previews/scene-22-5ffaa5050c3d4bdaa28d7f67803df5ba.png",
+      "previewSha256": "0dda3d61111eb9ecc5657b389dd2ad2d551f8d20dcff65b8bdcf7263bd81820a",
+      "previewByteSize": 323325,
+      "previewClassification": "source-generated-review-preview",
+      "semanticMappingStatus": "unassigned",
+      "candidateEntityId": null,
+      "candidateZoneId": null,
+      "camera": {
+        "position": {
+          "x": -112386.6721297621,
+          "y": 4719.257838302912,
+          "z": 1352.9985149338363
+        },
+        "rotation": {
+          "pitch": -25.67927000023043,
+          "yaw": 3.5430709487051257,
+          "roll": 1.1028473059263834e-16
+        },
+        "fieldOfView": 39.59775161743164,
+        "coordinateClassification": "d5-local-unregistered"
+      },
+      "renderReference": {
+        "width": 3840,
+        "height": 2160,
+        "stereoscopicPanorama": false
+      }
+    },
+    {
+      "order": 23,
+      "sceneId": "178eaa23-2c9e-84ed-8ea6-90442f7b0405",
+      "sourceName": "Scene 34",
+      "displayNameAr": "مشهد تصميم محمود 23",
+      "previewUri": "/assets/projects/kap/design/mahmoud-d5-r1/previews/scene-23-3c70368f75024dbda06a310a51208905.png",
+      "previewSha256": "5cccbefd5d46ef6ddfb31a592cdad4f1858ab5da0a7d1d5ace7ceda8368c0345",
+      "previewByteSize": 405930,
+      "previewClassification": "source-generated-review-preview",
+      "semanticMappingStatus": "unassigned",
+      "candidateEntityId": null,
+      "candidateZoneId": null,
+      "camera": {
+        "position": {
+          "x": -105644.32488578802,
+          "y": 2897.245763990836,
+          "z": 1337.889041017602
+        },
+        "rotation": {
+          "pitch": -22.3293112367698,
+          "yaw": 158.8927600756453,
+          "roll": -8.595949915936444e-16
+        },
+        "fieldOfView": 39.59775161743164,
+        "coordinateClassification": "d5-local-unregistered"
+      },
+      "renderReference": {
+        "width": 3840,
+        "height": 2160,
+        "stereoscopicPanorama": false
+      }
+    },
+    {
+      "order": 24,
+      "sceneId": "1c887ba1-9524-9e17-b46d-ef9e45234003",
+      "sourceName": "Scene 18",
+      "displayNameAr": "مشهد تصميم محمود 24",
+      "previewUri": "/assets/projects/kap/design/mahmoud-d5-r1/previews/scene-24-24410579819a455288370977200489f1.png",
+      "previewSha256": "013030f484783910b5876cb22d724d3db36d3324483dfefe21d8a11a66f1ebd7",
+      "previewByteSize": 253774,
+      "previewClassification": "source-generated-review-preview",
+      "semanticMappingStatus": "unassigned",
+      "candidateEntityId": null,
+      "candidateZoneId": null,
+      "camera": {
+        "position": {
+          "x": -84382.29110809788,
+          "y": -4202.289021920779,
+          "z": 535.2190241387818
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 125.94920646306532,
+          "roll": 0
+        },
+        "fieldOfView": 48.455509185791016,
+        "coordinateClassification": "d5-local-unregistered"
+      },
+      "renderReference": {
+        "width": 1440,
+        "height": 927,
+        "stereoscopicPanorama": false
+      }
+    },
+    {
+      "order": 25,
+      "sceneId": "32d5449c-5196-af65-8b92-2de6d1649d0d",
+      "sourceName": "Scene 36",
+      "displayNameAr": "مشهد تصميم محمود 25",
+      "previewUri": "/assets/projects/kap/design/mahmoud-d5-r1/previews/scene-25-9d9fe51bc10242e7b738c83d67f80cfd.png",
+      "previewSha256": "109606ba35ae177a19bf902d4f1ec750966e498b0c0342334ffefbab1a3741e2",
+      "previewByteSize": 304941,
+      "previewClassification": "source-generated-review-preview",
+      "semanticMappingStatus": "unassigned",
+      "candidateEntityId": null,
+      "candidateZoneId": null,
+      "camera": {
+        "position": {
+          "x": -85314.63650804177,
+          "y": -5004.586428297159,
+          "z": 1779.3495247289222
+        },
+        "rotation": {
+          "pitch": -21.185737098567188,
+          "yaw": 94.85649056267317,
+          "roll": 1.7055489229607043e-15
+        },
+        "fieldOfView": 54.43222427368164,
+        "coordinateClassification": "d5-local-unregistered"
+      },
+      "renderReference": {
+        "width": 1440,
+        "height": 927,
+        "stereoscopicPanorama": false
+      }
+    },
+    {
+      "order": 26,
+      "sceneId": "dadee87c-282c-b802-9b6a-55c49af5e5bf",
+      "sourceName": "Scene 37",
+      "displayNameAr": "مشهد تصميم محمود 26",
+      "previewUri": "/assets/projects/kap/design/mahmoud-d5-r1/previews/scene-26-425b0bd252184ac289d4b05d85750008.png",
+      "previewSha256": "9e8f6e51405d81c61e29db6ade492814eae438ff0cdef41de7c3b6aa0e087a26",
+      "previewByteSize": 388465,
+      "previewClassification": "source-generated-review-preview",
+      "semanticMappingStatus": "unassigned",
+      "candidateEntityId": null,
+      "candidateZoneId": null,
+      "camera": {
+        "position": {
+          "x": -92569.66182174465,
+          "y": 12278.600212385109,
+          "z": 847.0016526747286
+        },
+        "rotation": {
+          "pitch": -18.80030844081312,
+          "yaw": -131.82488643192025,
+          "roll": -8.399521988490626e-16
+        },
+        "fieldOfView": 55.16424560546875,
+        "coordinateClassification": "d5-local-unregistered"
+      },
+      "renderReference": {
+        "width": 1440,
+        "height": 927,
+        "stereoscopicPanorama": false
+      }
+    },
+    {
+      "order": 27,
+      "sceneId": "137ad1ec-eec0-a059-a0b8-ceaac4aa6f0d",
+      "sourceName": "Scene 38",
+      "displayNameAr": "مشهد تصميم محمود 27",
+      "previewUri": "/assets/projects/kap/design/mahmoud-d5-r1/previews/scene-27-227b55183ded429f95f2b96e07aa76f7.png",
+      "previewSha256": "109132e178633ca253c03b2c9ed4895026b4512b0ea756e2921971ecd02256b7",
+      "previewByteSize": 340886,
+      "previewClassification": "source-generated-review-preview",
+      "semanticMappingStatus": "unassigned",
+      "candidateEntityId": null,
+      "candidateZoneId": null,
+      "camera": {
+        "position": {
+          "x": -91924.31454385832,
+          "y": 13635.784678817943,
+          "z": 2020.9534015268393
+        },
+        "rotation": {
+          "pitch": -29.379397078418553,
+          "yaw": -132.24558587372513,
+          "roll": -1.8249886191652293e-15
+        },
+        "fieldOfView": 55.16424560546875,
+        "coordinateClassification": "d5-local-unregistered"
+      },
+      "renderReference": {
+        "width": 3840,
+        "height": 2160,
+        "stereoscopicPanorama": false
+      }
+    },
+    {
+      "order": 28,
+      "sceneId": "e9118827-dcbd-832b-9ccf-bbd01a858d4a",
+      "sourceName": "Press",
+      "displayNameAr": "مشهد المؤتمر الصحفي · اسم المصدر Press",
+      "previewUri": "/assets/projects/kap/design/mahmoud-d5-r1/previews/scene-28-d2693d883dd0426a9d51a8bae1de71cb.png",
+      "previewSha256": "937627f6a0a113b36044b49eee627dd3f9b3a76b7346dbd790dcd95b9afb4bb1",
+      "previewByteSize": 288447,
+      "previewClassification": "source-generated-review-preview",
+      "semanticMappingStatus": "source-named-unassigned",
+      "candidateEntityId": null,
+      "candidateZoneId": null,
+      "camera": {
+        "position": {
+          "x": -95130.1675802623,
+          "y": 13223.5354515231,
+          "z": 1910.1681015238007
+        },
+        "rotation": {
+          "pitch": -34.01423273515139,
+          "yaw": 60.018655220976356,
+          "roll": 0
+        },
+        "fieldOfView": 55.16424560546875,
+        "coordinateClassification": "d5-local-unregistered"
+      },
+      "renderReference": {
+        "width": 1440,
+        "height": 913,
+        "stereoscopicPanorama": false
+      }
+    },
+    {
+      "order": 29,
+      "sceneId": "0e93ce88-de1f-9775-a926-0e479f65507d",
+      "sourceName": "Scene 39",
+      "displayNameAr": "مشهد تصميم محمود 29",
+      "previewUri": "/assets/projects/kap/design/mahmoud-d5-r1/previews/scene-29-33889a45a49d4260ae220dbdb017c1e5.png",
+      "previewSha256": "f1208ae96e495e13ca0a057fd2f9ec9864e3192169dcf2a7fffbf4005c5bb0e0",
+      "previewByteSize": 333633,
+      "previewClassification": "source-generated-review-preview",
+      "semanticMappingStatus": "unassigned",
+      "candidateEntityId": null,
+      "candidateZoneId": null,
+      "camera": {
+        "position": {
+          "x": -91924.31454385832,
+          "y": 13635.784678817943,
+          "z": 2020.9534015268393
+        },
+        "rotation": {
+          "pitch": -29.379397078418553,
+          "yaw": -132.24558587372513,
+          "roll": -1.8249886191652293e-15
+        },
+        "fieldOfView": 55.16424560546875,
+        "coordinateClassification": "d5-local-unregistered"
+      },
+      "renderReference": {
+        "width": 3840,
+        "height": 2160,
+        "stereoscopicPanorama": false
+      }
+    },
+    {
+      "order": 30,
+      "sceneId": "03178e26-0cf9-8035-be4f-7bc70eda3eb2",
+      "sourceName": "Scene 41",
+      "displayNameAr": "مشهد تصميم محمود 30",
+      "previewUri": "/assets/projects/kap/design/mahmoud-d5-r1/previews/scene-30-ca732a92b66b4793b746da7634a5c64e.png",
+      "previewSha256": "65af5d75fbcbb0f89340cac296f6774d7be06728c391298515bb418d1fdc315e",
+      "previewByteSize": 376719,
+      "previewClassification": "source-generated-review-preview",
+      "semanticMappingStatus": "unassigned",
+      "candidateEntityId": null,
+      "candidateZoneId": null,
+      "camera": {
+        "position": {
+          "x": -93296.05052246481,
+          "y": 12215.126640578284,
+          "z": 2076.143282674728
+        },
+        "rotation": {
+          "pitch": -29.529229922222292,
+          "yaw": 91.49777175951752,
+          "roll": 0
+        },
+        "fieldOfView": 25.360767364501953,
+        "coordinateClassification": "d5-local-unregistered"
+      },
+      "renderReference": {
+        "width": 3840,
+        "height": 2160,
+        "stereoscopicPanorama": false
+      }
+    },
+    {
+      "order": 31,
+      "sceneId": "dbb8513b-884e-acb2-8355-596418c56ddf",
+      "sourceName": "Scene 42",
+      "displayNameAr": "مشهد تصميم محمود 31",
+      "previewUri": "/assets/projects/kap/design/mahmoud-d5-r1/previews/scene-31-4a4db8f8872e4918a7a3a719e19d828c.png",
+      "previewSha256": "207376117f107712cdd2b582f28b2081cba32855e1716a76cc257411daa6efc9",
+      "previewByteSize": 297900,
+      "previewClassification": "source-generated-review-preview",
+      "semanticMappingStatus": "unassigned",
+      "candidateEntityId": null,
+      "candidateZoneId": null,
+      "camera": {
+        "position": {
+          "x": -93958.23117764198,
+          "y": 15808.51594957825,
+          "z": 118.12655413313648
+        },
+        "rotation": {
+          "pitch": -1.5045432653297446,
+          "yaw": 35.112960942085856,
+          "roll": -4.9713305752253015e-17
+        },
+        "fieldOfView": 33.39848709106445,
+        "coordinateClassification": "d5-local-unregistered"
+      },
+      "renderReference": {
+        "width": 1330,
+        "height": 844,
+        "stereoscopicPanorama": false
+      }
+    },
+    {
+      "order": 32,
+      "sceneId": "51f285a2-ce90-9247-ac60-7918beb711e5",
+      "sourceName": "Scene 43",
+      "displayNameAr": "مشهد تصميم محمود 32",
+      "previewUri": "/assets/projects/kap/design/mahmoud-d5-r1/previews/scene-32-e8b13ca7f7d64e54879984c99b98a743.png",
+      "previewSha256": "cdc753d68d14bc4bcd24c13a0346b35aeedca81bc2e37ef6ef2814ff49ffa159",
+      "previewByteSize": 359079,
+      "previewClassification": "source-generated-review-preview",
+      "semanticMappingStatus": "unassigned",
+      "candidateEntityId": null,
+      "candidateZoneId": null,
+      "camera": {
+        "position": {
+          "x": -96873.86306413374,
+          "y": 15062.819038474727,
+          "z": 2300.3020296935433
+        },
+        "rotation": {
+          "pitch": -32.456437938849525,
+          "yaw": 13.724908902312272,
+          "roll": 9.423310524839166e-16
+        },
+        "fieldOfView": 25.360767364501953,
+        "coordinateClassification": "d5-local-unregistered"
+      },
+      "renderReference": {
+        "width": 1440,
+        "height": 927,
+        "stereoscopicPanorama": false
+      }
+    },
+    {
+      "order": 33,
+      "sceneId": "c0ace97b-7dba-a336-8dc9-4b0c6b32016a",
+      "sourceName": "Scene 44",
+      "displayNameAr": "مشهد تصميم محمود 33",
+      "previewUri": "/assets/projects/kap/design/mahmoud-d5-r1/previews/scene-33-6ce0417c21d94140880e705f6c1df635.png",
+      "previewSha256": "982511a78f0038bd5686925973b831a91878b16f3b483c8c2ba7df68a65a5817",
+      "previewByteSize": 386584,
+      "previewClassification": "source-generated-review-preview",
+      "semanticMappingStatus": "unassigned",
+      "candidateEntityId": null,
+      "candidateZoneId": null,
+      "camera": {
+        "position": {
+          "x": -93710.12645157623,
+          "y": 15958.785218523884,
+          "z": 14215.779423313143
+        },
+        "rotation": {
+          "pitch": -90,
+          "yaw": 0,
+          "roll": 0
+        },
+        "fieldOfView": 25.360767364501953,
+        "coordinateClassification": "d5-local-unregistered"
+      },
+      "renderReference": {
+        "width": 1440,
+        "height": 927,
+        "stereoscopicPanorama": false
+      }
+    }
+  ],
+  "truth": {
+    "founderApprovedCurrentDesignBaseline": true,
+    "completeReceivedD5ContentInScope": true,
+    "allScenesDiscoverable": true,
+    "automaticEntityMappingAllowed": false,
+    "engineeringRegistrationStatus": "unregistered",
+    "asBuiltStatus": "not-as-built",
+    "spatialRouteStatus": "not-approved",
+    "hseAuthorityStatus": "not-approved",
+    "operationalReadiness": "cannot-determine",
+    "productionPanoramaStatus": "missing",
+    "externalPublicationStatus": "pending-rights"
+  },
+  "contentHash": "4fff1d390e02169b13113eacd06a90053a9959c8d0ec17c64bdc7f5aca9ca1d3"
+}

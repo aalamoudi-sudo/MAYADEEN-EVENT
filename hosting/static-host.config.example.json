@@ -1,0 +1,55 @@
+{
+  "schemaVersion": "1.0.0",
+  "profile": "MAYADEEN-EVENT-WORLD-PRIVATE-CLIENT-REVIEW-v1",
+  "documentRoot": "frontend/",
+  "rootBase": "/",
+  "httpsRequired": true,
+  "authenticatedPrivateAccessRequired": true,
+  "directoryListing": false,
+  "dotfiles": "deny",
+  "spaFallback": {
+    "enabled": true,
+    "rewriteNonFileRequestsTo": "/index.html"
+  },
+  "cachePolicy": [
+    {
+      "match": "/index.html",
+      "value": "no-store"
+    },
+    {
+      "match": "/assets/*",
+      "value": "private, no-cache"
+    },
+    {
+      "match": "/assets/projects/kap/design/mahmoud-d5-r1/previews/*",
+      "value": "private, no-cache"
+    },
+    {
+      "match": "/local-assets/*",
+      "value": "private, no-cache"
+    },
+    {
+      "match": "/kaga/assets/*",
+      "value": "private, no-cache"
+    },
+    {
+      "match": "/visual-direction/*",
+      "value": "private, no-cache"
+    },
+    {
+      "match": "/*.json",
+      "value": "private, no-cache"
+    }
+  ],
+  "mimeTypes": {
+    ".glb": "model/gltf-binary",
+    ".gltf": "model/gltf+json",
+    ".json": "application/json; charset=utf-8",
+    ".js": "text/javascript; charset=utf-8",
+    ".css": "text/css; charset=utf-8",
+    ".wasm": "application/wasm",
+    ".webp": "image/webp"
+  },
+  "externalNetworkRequired": false,
+  "atomicDirectorySwapRequired": true
+}

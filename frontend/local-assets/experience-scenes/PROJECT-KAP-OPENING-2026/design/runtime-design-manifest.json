@@ -1,0 +1,51 @@
+{
+  "schemaVersion": "1.0.0",
+  "sceneId": "DESIGN-SCENE-KAP-MAHMOUD-001",
+  "assetId": "DESIGN-ASSET-KAP-DIRECT-MESH-001",
+  "source": {
+    "sourceId": "DESIGN-SOURCE-KAP-MAHMOUD-3DM-001",
+    "safeFilename": "Kaig-mastersite.3dm",
+    "sha256": "e754894193c1da6660218757a19adc2f5dfacde7b2f27aefd35597d860007a9e",
+    "bytes": 328192677,
+    "authority": "founder-approved-design-source"
+  },
+  "derivative": {
+    "derivativeId": "DESIGN-DERIVATIVE-KAP-DIRECT-MESH-GLB-R1",
+    "safeFilename": "kap-direct-mesh-subscene-candidate.glb",
+    "sha256": "7b4147af359beba58e0864a85eb725569d08ebbe6eec3d2d93b443eb08c45bca",
+    "bytes": 3050340,
+    "authority": "derived-diagnostic-candidate",
+    "runtimeUri": "/local-assets/experience-scenes/PROJECT-KAP-OPENING-2026/design/DESIGN-ASSET-KAP-DIRECT-MESH-001.glb",
+    "previewUri": "/local-assets/experience-scenes/PROJECT-KAP-OPENING-2026/design/DESIGN-ASSET-KAP-DIRECT-MESH-001-preview.png",
+    "inspection": {
+      "sceneCount": 1,
+      "nodeCount": 22,
+      "meshCount": 22,
+      "primitiveCount": 22,
+      "vertexCount": 127783,
+      "triangleCount": 125130,
+      "materialCount": 22,
+      "textureCount": 0,
+      "boundsMin": [
+        -20.860803604125977,
+        0,
+        -17.96051025390625
+      ],
+      "boundsMax": [
+        20.860803604125977,
+        3.299999713897705,
+        17.9605712890625
+      ]
+    }
+  },
+  "truth": {
+    "engineeringRegistered": false,
+    "approvedRoute": false,
+    "operationalReadiness": "cannot-determine",
+    "panorama360Available": false
+  },
+  "verification": {
+    "checksumEntriesVerified": 22,
+    "validatorVersion": "DESIGN-ASSET-VALIDATOR-v1"
+  }
+}

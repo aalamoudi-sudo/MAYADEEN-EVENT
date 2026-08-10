@@ -1,0 +1,126 @@
+{
+  "contentHash": "db235769e1c618f94b7ff859e7bd65ed91b2d0e82cc388ff421884e33db29f1c",
+  "derivative": {
+    "assetId": "DESIGN-ASSET-KAP-R2-PASSAGE-MESH-001",
+    "boundsMax": [
+      20.860803232260363,
+      3.2999998078734896,
+      17.96052585924008
+    ],
+    "boundsMin": [
+      -20.86080397599159,
+      9.397578448755439e-08,
+      -17.96055568372867
+    ],
+    "byteSize": 4586248,
+    "classification": "derived-diagnostic-candidate",
+    "derivativeId": "DESIGN-DERIVATIVE-KAP-PASSAGE-MESH-GLB-R2",
+    "dimensions": [
+      41.72160720825195,
+      3.299999713897705,
+      35.92108154296875
+    ],
+    "excludedContentAr": [
+      "68 عنصرًا هندسيًا غير صالح",
+      "الخط الشاذ 6994a53e-2555-4c90-b6ac-0b52db513e29",
+      "Brep وNURBS والمنحنيات والتعليقات",
+      "البلوكات والمراجع المتداخلة خارج عنقود ممر العصور",
+      "الخامات الخارجية والكاميرات ومسارات الحركة",
+      "بقية الموقع خارج العنقود التشخيصي"
+    ],
+    "materialCount": 22,
+    "meshCount": 22,
+    "nodeCount": 22,
+    "primitiveCount": 22,
+    "runtimeUri": "/local-assets/experience-scenes/PROJECT-KAP-OPENING-2026/design/DESIGN-ASSET-KAP-R2-PASSAGE-MESH-001.glb",
+    "safeFilename": "DESIGN-ASSET-KAP-R2-PASSAGE-MESH-001.glb",
+    "safeNestedMeshInstanceCount": 0,
+    "sceneCount": 1,
+    "sceneId": "DESIGN-SCENE-KAP-MAHMOUD-R2-PASSAGE-001",
+    "scope": "passage-of-eras-direct-mesh-cluster-only",
+    "sha256": "2c3919345fb81a0a56fd9bcf0ca0ef0af18045345f16ba16d6d4c2ca55193371",
+    "sourceBounds": {
+      "max": [
+        7.076545510864905,
+        -841.4798013578117,
+        7.5197326674073
+      ],
+      "min": [
+        -34.64506054472157,
+        -877.4009047362082,
+        4.219732667407272
+      ]
+    },
+    "sourceMeshCount": 375,
+    "spatialRegistrationStatus": "unregistered",
+    "textureCount": 0,
+    "triangleCount": 125046,
+    "vertexCount": 127693
+  },
+  "diagnostics": {
+    "archiveVersion": 80,
+    "collisionMeshStatus": "missing",
+    "controlPointStatus": "missing",
+    "crsStatus": "missing",
+    "earthAnchorStatus": "missing",
+    "externalTextureReferenceCount": 856,
+    "instanceDefinitionCount": 5053,
+    "invalidGeometryObjectCount": 68,
+    "layerCount": 2169,
+    "lodPackageStatus": "missing",
+    "materialCount": 3113,
+    "namedProductionCameraCount": 0,
+    "namedViewCount": 0,
+    "navmeshStatus": "missing",
+    "objectCount": 320185,
+    "objectTypeCounts": {
+      "ArcCurve": 48825,
+      "Brep": 3236,
+      "DimAngular": 99,
+      "DimLinear": 8,
+      "DimRadial": 2,
+      "Extrusion": 932,
+      "GeometryBase": 2,
+      "Hatch": 4454,
+      "InstanceReference": 12728,
+      "Leader": 553,
+      "LineCurve": 203142,
+      "Mesh": 591,
+      "NurbsCurve": 14119,
+      "Point": 188,
+      "PolyCurve": 4425,
+      "PolylineCurve": 25017,
+      "Text": 1864
+    },
+    "privateTexturePathsEmitted": false,
+    "quarantinedObjectIds": [
+      "6994a53e-2555-4c90-b6ac-0b52db513e29"
+    ],
+    "semanticNamingStatus": "incomplete",
+    "uniqueExternalTextureReferenceCount": 15,
+    "viewCount": 6
+  },
+  "eventId": "EVENT-KAP-OPENING-2026",
+  "manifestId": "MANIFEST-KAP-R2-DIAGNOSTIC-DERIVATIVE-v1",
+  "projectId": "PROJECT-KAP-OPENING-2026",
+  "schemaVersion": "1.0.0",
+  "source": {
+    "byteSize": 348405491,
+    "classification": "founder-accepted-native-design-candidate-r2",
+    "format": "Rhino 3DM archive v80",
+    "immutable": true,
+    "safeFilename": "Kaig-mastersite  (1).3dm",
+    "sha256": "405b44ea55d28a718ed8e5e4f837fa7c18fd1829a3c741e2c6d9110b22a80430",
+    "sourceId": "DESIGN-SOURCE-KAP-RHINO-R2-001",
+    "units": "meter"
+  },
+  "truth": {
+    "asBuiltStatus": "not-as-built",
+    "engineeringRegistrationStatus": "unregistered",
+    "hseAuthorityStatus": "none",
+    "productionPanoramaStatus": "missing",
+    "readinessAuthorityStatus": "none",
+    "spatialRouteStatus": "none"
+  },
+  "venueId": "VENUE-KAP-001"
+}

@@ -1,0 +1,103 @@
+{
+  "schemaVersion": "1.0.0",
+  "manifestId": "MANIFEST-MAHMOUD-STUDIO-DESIGN-PACK-v2",
+  "packId": "MAHMOUD-STUDIO-DESIGN-PACK-v2",
+  "projectId": "PROJECT-KAP-OPENING-2026",
+  "eventId": "EVENT-KAP-OPENING-2026",
+  "venueId": "VENUE-KAP-001",
+  "status": "founder-approved-current-composite-design-baseline",
+  "compositionType": "append-only-reference-composite",
+  "effectiveDate": "2026-08-09",
+  "founderDecision": {
+    "authority": "Ahmed",
+    "decisionAr": "يُعتمد تسليم محمود الحالي كخط أساس التصميم المركب النهائي والحالي لجميع مناطق التصميم المستلمة، ويُستخدم داخل المنصة وفي مراجعة المؤسس والعميل. يحافظ الخط المركب على سجل Rhino واشتقاقاته في v1، ويضيف D5 كمصدر المشاهد والخامات والإضاءة والكاميرات والتكوين. أي تسليم مختلف لاحقًا يُسجل كمراجعة جديدة غير قابلة للكتابة فوق هذا الإصدار ويحتاج قرار تفعيل صريحًا.",
+    "decisionEn": "The current Mahmoud delivery is the founder-approved current composite design baseline for every delivered design area and may be used inside the platform and for founder/client review. The composite retains the Rhino record and derivatives in v1 and adds D5 as the current scenes, materials, lighting, cameras and composition source. Any different later delivery must be recorded as a new immutable revision and requires an explicit activation decision.",
+    "approvalScope": "internal-platform-integration-and-founder-client-review",
+    "areaScope": "all-currently-delivered-mahmoud-design-areas",
+    "notRestrictedToEntityId": "ENTITY-KAP-OP-006"
+  },
+  "componentReferences": [
+    {
+      "componentId": "MAHMOUD-STUDIO-DESIGN-PACK-v1",
+      "manifestId": "MANIFEST-MAHMOUD-STUDIO-DESIGN-PACK-v1",
+      "manifestPath": "pilot-input/manifests/mahmoud-studio-design-pack-v1.json",
+      "manifestSha256": "98e19f60b9ad54fe540459ddf316ee586e01283aefed34eb0b682bcd47ba9211",
+      "role": "immutable-native-geometry-object-accounting-and-runtime-derivative-record",
+      "activeGeometryRevisionId": "DESIGN-SOURCE-KAP-RHINO-R2-001",
+      "relationship": "retained-by-reference-not-superseded-not-rewritten",
+      "mutationAllowed": false
+    },
+    {
+      "componentId": "MAHMOUD-KAP-CURRENT-DESIGN-BASELINE-v1",
+      "manifestId": "MANIFEST-MAHMOUD-D5-CURRENT-DESIGN-BASELINE-v1",
+      "manifestPath": "pilot-input/manifests/mahmoud-d5-current-design-baseline-v1.json",
+      "manifestSha256": "3bef639400476ce36e85ae7825c7bb7ca7df4edc5ed3789e003ce4d74102aee4",
+      "role": "current-scenes-materials-lights-cameras-and-composition-record",
+      "activeVisualRevisionId": "DESIGN-SOURCE-KAP-D5-R1-001",
+      "relationship": "additive-current-visual-experience-component",
+      "mutationAllowed": false
+    }
+  ],
+  "currentComposite": {
+    "nativeGeometryRevisionId": "DESIGN-SOURCE-KAP-RHINO-R2-001",
+    "visualExperienceRevisionId": "DESIGN-SOURCE-KAP-D5-R1-001",
+    "sourceAuthority": "founder-approved-current-design-source",
+    "platformUseStatus": "active-for-internal-platform-use",
+    "founderClientReviewStatus": "approved-current-baseline",
+    "semanticCoveragePolicy": "all-delivered-content-remains-in-scope; named entity or zone mappings require separate evidence",
+    "fallbackPolicy": "retain-v1-geometry-and-derivative-with-explicit-d5-unavailable-state"
+  },
+  "revisionPolicy": {
+    "mode": "append-only",
+    "v1MutationPolicy": "forbidden",
+    "sameSourceFingerprintBehavior": "idempotent-existing-revision",
+    "differentSourceFingerprintBehavior": "create-new-inactive-revision",
+    "activationBehavior": "explicit-founder-decision-required",
+    "rollbackBehavior": "select-a-previous-immutable-composite-without-deleting-history",
+    "silentReplacementAllowed": false
+  },
+  "artifactBoundary": {
+    "trackedArtifacts": [
+      "component manifests",
+      "sanitized runtime metadata",
+      "sanitized source-generated review previews",
+      "verification receipts"
+    ],
+    "excludedArtifacts": [
+      "native 3DM files",
+      "D5.rar",
+      "native D5 project payloads",
+      "private source ledgers",
+      "private custody paths",
+      "unlicensed or unresolved third-party assets"
+    ],
+    "rawSourcesTracked": false,
+    "rawSourcesAllowedInReviewPackage": false,
+    "privatePathsAllowedInRuntimeOrReviewEvidence": false
+  },
+  "disclosedCurrentConditions": [
+    "D5 clean-machine Windows portability validation remains pending.",
+    "Cloud-managed D5 library assets and unresolved references remain disclosed in the D5 component manifest.",
+    "Most D5 scene and layer names do not provide authoritative entity or zone identity.",
+    "No production 360 panorama or authored walkthrough is present in the current D5 delivery.",
+    "D5 local coordinates and geolocation metadata are not canonical spatial truth."
+  ],
+  "truthBoundaries": {
+    "founderApprovedCurrentDesignBaseline": true,
+    "internalPlatformUseAuthorized": true,
+    "allDeliveredMahmoudAreasInScope": true,
+    "engineeringRegistrationStatus": "unregistered",
+    "asBuiltStatus": "not-as-built",
+    "canonicalSpatialGeometryStatus": "not-established",
+    "crsAndControlPointStatus": "missing",
+    "hseAuthorityStatus": "not-approved",
+    "spatialRouteStatus": "not-approved",
+    "operationalReadiness": "cannot-determine",
+    "openingAuthorityStatus": "not-approved",
+    "externalPublicationRightsStatus": "open",
+    "productionPanoramaStatus": "missing",
+    "simulationStatus": "not-implemented"
+  },
+  "nonDuplicationStatement": "This v2 manifest is a composition and activation record only. It references v1 and the D5 baseline manifest; it does not copy, replace, reclassify or recalculate their source, object, dependency, derivative or repair accounting.",
+  "contentHash": "48018d1acd824fe6f6a8d1c189678d8b89cb71d196c0615112c6cccad1e5b185"
+}

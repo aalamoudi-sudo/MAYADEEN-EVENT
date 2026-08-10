@@ -1,0 +1,1467 @@
+{
+  "schemaVersion": "1.0.0",
+  "profile": "MAYADEEN-EVENT-WORLD-PRIVATE-CLIENT-REVIEW-v1",
+  "classification": "PRIVATE_CLIENT_REVIEW",
+  "featureCommit": "2f4160fb254b4d02ec8c79e0f88fa154ca476828",
+  "sourceDate": "2026-08-10T22:35:08+03:00",
+  "rootBase": "/",
+  "spaFallback": "/index.html",
+  "externalNetworkRequired": false,
+  "runtime": {
+    "staticHttpsOnly": true,
+    "fivePlatforms": [
+      "command-center",
+      "twin-tower",
+      "experience",
+      "simulation-iot",
+      "administration-studio"
+    ],
+    "glbMimeType": "model/gltf-binary"
+  },
+  "approvedReleaseInputs": {
+    "d5ManifestId": "MANIFEST-MAHMOUD-D5-CURRENT-DESIGN-BASELINE-v1",
+    "d5ContentHash": "4fff1d390e02169b13113eacd06a90053a9959c8d0ec17c64bdc7f5aca9ca1d3",
+    "compositeManifestId": "MANIFEST-MAHMOUD-STUDIO-DESIGN-PACK-v2",
+    "compositeContentHash": "48018d1acd824fe6f6a8d1c189678d8b89cb71d196c0615112c6cccad1e5b185",
+    "rhinoRuntimeManifestSha256": "003acc0b323c635d9c41ea5d9e5f0771068073a7ec1a95848aae05cf7d8c7eea",
+    "d5ScenePreviews": 33,
+    "designWorldGlbChunks": 12,
+    "additionalManifestBoundGlbDerivatives": 2
+  },
+  "truthBoundaries": {
+    "operationalReadiness": "cannot-determine",
+    "v15SpatialRoute": "candidate-not-approved",
+    "engineeringRegistration": "not-approved",
+    "hseApproval": "not-approved",
+    "openingApproval": "not-approved",
+    "liveIot": "not-enabled",
+    "simulation": "not-claimed"
+  },
+  "allowlistAccounting": {
+    "viteAndSpaFiles": 154,
+    "kagaPresentationAssets": 101,
+    "visualDirectionAssets": 4,
+    "d5PreviewImages": 33,
+    "designRuntimeJson": 5,
+    "runtimeGlbFiles": 14,
+    "directDesignPreviewImages": 1,
+    "trackedRuntimeManifests": 4
+  },
+  "files": [
+    {
+      "path": "assets/App-C5VUntFr.css",
+      "bytes": 64071,
+      "sha256": "6a36a5c29eaa49f0e923f27665dd886a788f04ba828045f80e81da5ecde3f518"
+    },
+    {
+      "path": "assets/App-UoTRin24.js",
+      "bytes": 2553431,
+      "sha256": "5ca99e1fb40562c2273869b6603cae4f82fe8ad4cb75a3efdeca4a2728d38778"
+    },
+    {
+      "path": "assets/CandidateAnchorAuthoringPanel-BpoCyN2_.js",
+      "bytes": 6028,
+      "sha256": "2fcc36c45dde5ecf371b37a943db4d610e32759f9f4e21a5ffd760e43e675221"
+    },
+    {
+      "path": "assets/CommandVisualSystemWorkspace-D9o75a6H.js",
+      "bytes": 15700,
+      "sha256": "9ec1a15f5ce52018597f170cf05bd76cb94fb916ca382a91f126153464a642e1"
+    },
+    {
+      "path": "assets/CompleteDesignWorldScene-BFU98rmG.js",
+      "bytes": 8368,
+      "sha256": "bac313f1a919a44be3a05238da51f94775cf9d528afff66142319eb48e1d5174"
+    },
+    {
+      "path": "assets/DecisionCenter-BlUFo4d9.js",
+      "bytes": 44669,
+      "sha256": "79d375c76e4053889924e5a9ca2ca0b6ce524a715f6605e3a4d98bc9139da650"
+    },
+    {
+      "path": "assets/EventConfigurationWorkspace-DbbZGDU4.js",
+      "bytes": 28817,
+      "sha256": "6810f5bc9eb13302fac978229857456c566e10a7e647adf0e76c660a2e78f734"
+    },
+    {
+      "path": "assets/EventWorldCanvas-560JWeQB.css",
+      "bytes": 91458,
+      "sha256": "b7a4c8dffe9fd727733556dd91aae5acb4321252778786a41ecb8577d8713bf1"
+    },
+    {
+      "path": "assets/EventWorldCanvas-CLdNIQYY.js",
+      "bytes": 288771,
+      "sha256": "6b734da06cc0ced7872f11426d0ae7b203e06321d2eaefcf191ca31787a032bb"
+    },
+    {
+      "path": "assets/EventWorldStudio-CXS98Qat.js",
+      "bytes": 15550,
+      "sha256": "8f5bb2e5cb3c162ea808329a50d20618d56d5c02d3a7d6edfe3ae3f407e1e5c1"
+    },
+    {
+      "path": "assets/ExperienceDeliveryControlCenter-DNmKqZ7X.js",
+      "bytes": 36071,
+      "sha256": "8993e48ee4c803749f7d69e6dfd1a81406a6595dce54529e2a5099e09c15009c"
+    },
+    {
+      "path": "assets/ExperienceEntryPanel-Di6VdN0P.js",
+      "bytes": 3182,
+      "sha256": "12d9eed14dfdc39392f9545778ca4cf0e971c04d684b6fe4983383f2313d1b9b"
+    },
+    {
+      "path": "assets/ExperienceIntegratedReviewEntry-DD3FXqhh.js",
+      "bytes": 33126,
+      "sha256": "41b5fa1221cb32ab812e6cbbfadabc55f376b0d287ac9c5406976bcc6cbc129a"
+    },
+    {
+      "path": "assets/ExperienceIntelligenceWorkspace-qqIWcJaX.js",
+      "bytes": 37015,
+      "sha256": "cf495e231dd3d24b5c6e8d5990df5c9cd8332a900c88755f523e273c986ede07"
+    },
+    {
+      "path": "assets/ExperienceRehearsalWorkspaceEntry-3bh5QM91.css",
+      "bytes": 18707,
+      "sha256": "97ddd3965bb4ff33fa468c62bfde3c27328f786cb1836bd81e3548d0bf055196"
+    },
+    {
+      "path": "assets/ExperienceRehearsalWorkspaceEntry-Dz8E9rch.js",
+      "bytes": 50524,
+      "sha256": "d6fb6a5a9fd8b6b253a0df94c872ec456c0624f8150b9de8157463f9b6ff0127"
+    },
+    {
+      "path": "assets/ExperienceSceneViewer-CMvqxbwO.css",
+      "bytes": 23256,
+      "sha256": "0ec8ec2e776aa3549e9fb2e3f3de69d2280ec5c58f143c64a0a791b43a20bb5a"
+    },
+    {
+      "path": "assets/ExperienceSceneViewer-UFgI8KGM.js",
+      "bytes": 42662,
+      "sha256": "845d82a3bc021f241f8154cf85728eecdfc2d2a65d2e05ad57d7feb55063ebe4"
+    },
+    {
+      "path": "assets/ExperienceTwinWorkspaceEntry-C8tVFkRa.css",
+      "bytes": 132002,
+      "sha256": "431ca73acb4d1325c525069aa9214f6060d5e4a25470bb1f73031e791dc1bb6d"
+    },
+    {
+      "path": "assets/ExperienceTwinWorkspaceEntry-H5cdBOwz.js",
+      "bytes": 172215,
+      "sha256": "bb480ae1f19ea64813bd7bcf7ce8894488b5e391f1c7cc1f648bf94ca553d4cc"
+    },
+    {
+      "path": "assets/Gltf-Bf2Gjnly.js",
+      "bytes": 72030,
+      "sha256": "d952acec611b1ee7240c2dba65c23ab84d118d2fb354bb681bd0f9097d57b34b"
+    },
+    {
+      "path": "assets/IllustratedVisitorMap-BydPadBD.css",
+      "bytes": 10753,
+      "sha256": "628e94d2f1b907a5db59f38ac16a53a37599d0475522006da2b562f0975e0d05"
+    },
+    {
+      "path": "assets/IllustratedVisitorMap-C-roL7kd.js",
+      "bytes": 10699,
+      "sha256": "bcd794c5ad8b2ab1fd7f9a7d4694b3ec041178b9416ea49987b4e11e866a6a0c"
+    },
+    {
+      "path": "assets/IoTIntegrationWorkspace-DHh5eStC.js",
+      "bytes": 73770,
+      "sha256": "d4040532fa0d467c45c168557ff0446dfd281ac5791bb32a17682d5108868eca"
+    },
+    {
+      "path": "assets/KapProjectWorkspace-CsP7lKj_.js",
+      "bytes": 2989,
+      "sha256": "d3b2979bd8887d730774d757eda5e2ebc0215d9ec72f211e10a3a491d797ff6c"
+    },
+    {
+      "path": "assets/KapSpatialAuthoringWorkspace-CZslVnaN.js",
+      "bytes": 50200,
+      "sha256": "92a90e6d2e0bbbaeba4fe4aab3b76175fe9d67ec65a3aaf3c5ba655a155fe809"
+    },
+    {
+      "path": "assets/KapSpatialAuthoringWorkspace-EHxY5nWP.css",
+      "bytes": 37095,
+      "sha256": "0f184f3aea110c243b9b30ff0f3a14da762eac8b0975cbf9b0aa508ea2c066f4"
+    },
+    {
+      "path": "assets/MahmoudDesignWorld-B4iVwv9e.css",
+      "bytes": 32204,
+      "sha256": "6d6da69c10ec06e8587aa3a925d6c2115a8be9966d3df94e1bf8bf94125a7382"
+    },
+    {
+      "path": "assets/MahmoudDesignWorld-CNxx0T4p.js",
+      "bytes": 73391,
+      "sha256": "3d434b49b2e937751bec1a2f24f84d8fea702e5dd5916fac7df3b9aa8dbe6004"
+    },
+    {
+      "path": "assets/MissionCanvas-CMeHptb_.css",
+      "bytes": 35847,
+      "sha256": "56f14a43f4ee3ef09f29f55fe7705d973d57c18620087d94b70a2a0e70bf2021"
+    },
+    {
+      "path": "assets/MissionCanvas-Cibiq8LD.js",
+      "bytes": 36368,
+      "sha256": "ae131b21a957111db8b5b7f5c158fd86755354e7bda762c38386510efc33fb40"
+    },
+    {
+      "path": "assets/OperationalCaptureLab-BY1WV8YJ.js",
+      "bytes": 129788,
+      "sha256": "0720deac72f71797e9c273bf0a0c25cf7bfba31fd05b1a88a17240a0f06b019e"
+    },
+    {
+      "path": "assets/OperationalReadinessPackWorkspaceEntry-BWDEkfmO.css",
+      "bytes": 39738,
+      "sha256": "c2eebf586fd56dc6bac4fda13166e41245cd6e4a2c2ada2dafebafdaed26b517"
+    },
+    {
+      "path": "assets/OperationalReadinessPackWorkspaceEntry-Dr_Zqnqb.js",
+      "bytes": 72401,
+      "sha256": "bb6a709b4f01c4ae73b2a789df931a863a246ba8afb2cbeab4c0f06351c28a9c"
+    },
+    {
+      "path": "assets/OperationalValidationWorkspace-C05q-ZSm.js",
+      "bytes": 19943,
+      "sha256": "e0603a8547784349a3cff5711a6567b084a77d521083614f4b7b8956c8d9a008"
+    },
+    {
+      "path": "assets/OptionalLocalSourceImage-Df4GtFOO.js",
+      "bytes": 2110,
+      "sha256": "be8dce95f74615800dc47d70135cecaedfbd4036ba0c28cda59740ebce290d3a"
+    },
+    {
+      "path": "assets/PanoramaSceneSurface-DrA1tB8p.js",
+      "bytes": 2744,
+      "sha256": "21ed520270f9e4409ecb463e22dfee125662f9f2793adebfda9929f066379956"
+    },
+    {
+      "path": "assets/PerspectiveCamera-KEs_RlsT.js",
+      "bytes": 1510,
+      "sha256": "7b8c35214c2d34b8badbea28f0aeb4727f1f0b7cef1d681a4173fcc63c1cedd5"
+    },
+    {
+      "path": "assets/PilotAuthoringWorkspace-BMAQZmcv.js",
+      "bytes": 162184,
+      "sha256": "fa59e61791a3eca27bfe9d609de90f4f6a6f432849c81f5186f97bd3a5121dbc"
+    },
+    {
+      "path": "assets/PlatformControlDock-CM8DFWD0.js",
+      "bytes": 1789,
+      "sha256": "8645b2da6559573352970a630ad8d87427e06ee8eba4b5ce3e34505ba36ca9c1"
+    },
+    {
+      "path": "assets/ReadinessCommandWorkspaceEntry-BMZAJCpS.js",
+      "bytes": 35124,
+      "sha256": "c40e00259c3f3bb17526c9a95d184a0dbf23470a4e4a245f075154d19c684c52"
+    },
+    {
+      "path": "assets/ReadinessLocalAuthoringPanel-WmEbwSti.js",
+      "bytes": 6503,
+      "sha256": "5d2c312df7b3b30fce0351731c0e40647728c4171146a9eb6a6946fbc93aea52"
+    },
+    {
+      "path": "assets/ReadinessSpatialPanel-CxFbr-pz.css",
+      "bytes": 34179,
+      "sha256": "9a96e1a5d5480bf89cf0174dbb8b808d0bfbb42889c93a68586069a6c4d315ab"
+    },
+    {
+      "path": "assets/ReadinessSpatialPanel-HilJdUml.js",
+      "bytes": 4174,
+      "sha256": "303ffadb0fbeb5100b0338cb3633285b6b6ff30ab29a9f34fcbc8ace02fcb88a"
+    },
+    {
+      "path": "assets/ReadinessWorkspace-CM85lYdt.js",
+      "bytes": 26003,
+      "sha256": "d568c7c8c0c1be8883f54744873ef8e723476ae9d43b34dde5dcf0b5aa76586c"
+    },
+    {
+      "path": "assets/SpatialCommandWorkspaceEntry-SnW2VAFT.js",
+      "bytes": 71932,
+      "sha256": "6155d5842837fc487fe2de7488214d63e2a3d8c2460df8befaad7b413cd65c54"
+    },
+    {
+      "path": "assets/StoryMapExperience-CD5nywIg.js",
+      "bytes": 33924,
+      "sha256": "b56651ba738d41d34fd6907fa2c30de1297b53c45f35ad695b095e6b8a2dacaf"
+    },
+    {
+      "path": "assets/StoryMapExperience-DRpbvDV0.css",
+      "bytes": 19680,
+      "sha256": "0420b9f944ae9a22b697cd0533232cef5001f77122d1652ff8711a9594ff4922"
+    },
+    {
+      "path": "assets/SuiteAdvancedTools-Bf1ZQUH_.js",
+      "bytes": 46218,
+      "sha256": "355c7dac97d68903ab99cdd07aed8e4ebc3e5d6c01e2ed88cc6c8a35678d8b18"
+    },
+    {
+      "path": "assets/SuiteOperationalPanel-C9y2-82E.js",
+      "bytes": 18418,
+      "sha256": "321b652941834500b03061a074ba9c71424427d9d417e5d14fca18ea3dc11aea"
+    },
+    {
+      "path": "assets/VisualDirectionReviewWorkspace-DpjxKHtG.js",
+      "bytes": 5796,
+      "sha256": "1611ebc0623320d87a34aeaf771c03c62fb5783650bb10a0ac9e4738c7f54c72"
+    },
+    {
+      "path": "assets/Web3DSceneSurface-BhMw-pBY.js",
+      "bytes": 13624,
+      "sha256": "acb02763e3aebaa3276819f2520e78e9aec732def49f731f4eda3ddf903da360"
+    },
+    {
+      "path": "assets/archive-restore-X0GdsmSi.js",
+      "bytes": 339,
+      "sha256": "d1b13935c34ab63e26431435d4a68e629af9abc6843b60018b63369c13fc0b86"
+    },
+    {
+      "path": "assets/arrow-up-left-CUjpA9NK.js",
+      "bytes": 165,
+      "sha256": "1d2564e05f120062af2024280d8d3974be6289d453cf23854ca35ff0c500f65c"
+    },
+    {
+      "path": "assets/book-open-check-B9wZL4P3.js",
+      "bytes": 334,
+      "sha256": "d564f0ec02f2dac7195be27d5b2b31655bdc3924c47321f2f3f256c9c0fff121"
+    },
+    {
+      "path": "assets/camera-DgR2otVp.js",
+      "bytes": 335,
+      "sha256": "25956564db59a9a112bbe2eff18a73fe9dc091113c7c917d1b73c359e41e51c9"
+    },
+    {
+      "path": "assets/circle-dashed-1IK5l6dU.js",
+      "bytes": 573,
+      "sha256": "81f993a42054fa701702ad8a927630789668f9b2ce7eaf84ac3f5f3302b4e628"
+    },
+    {
+      "path": "assets/circle-dot-BnN5_JWH.js",
+      "bytes": 176,
+      "sha256": "455f241a11a0e7d360e98f1cec01f20184341b56e3fd2cee16e41b64ef21461b"
+    },
+    {
+      "path": "assets/circle-off-C9Gu6t8x.js",
+      "bytes": 248,
+      "sha256": "bd4895d4c8c0034885994f50f4d50edff8a39058974990875cb51095a6d7e51e"
+    },
+    {
+      "path": "assets/circle-pause-D-YO0A3B.js",
+      "bytes": 240,
+      "sha256": "0e62b77eb470952ea829ef4972e27331d6be5581bbef247f0ec6e6df82022719"
+    },
+    {
+      "path": "assets/circle-play-DzpHoOl9.js",
+      "bytes": 250,
+      "sha256": "eb3d17fb01eaa3ea5b5bdda950008623c1330326d119f2e7075bcad7825f44f7"
+    },
+    {
+      "path": "assets/circle-question-mark-CazNep-1.js",
+      "bytes": 242,
+      "sha256": "7775cadb5b0fa666f6e868b59d7f2e10cfc8805868236d209d50d9a80d718b3f"
+    },
+    {
+      "path": "assets/circle-x-C2OwvBqZ.js",
+      "bytes": 201,
+      "sha256": "ad919e7a8aa2429bc29fc5c4026d797d99413bd65150410e4566a5676321cc6d"
+    },
+    {
+      "path": "assets/command-C7ZvbEWe.js",
+      "bytes": 181,
+      "sha256": "968ab14a1f1a90de76631e4b50a3f228ba39ea472de581a63e972cf67ad656a8"
+    },
+    {
+      "path": "assets/download-ClrmFb8l.js",
+      "bytes": 231,
+      "sha256": "0fa38cc073e87879911d007ef6dc936f724cd697aa6c85b830e8220a495bbf01"
+    },
+    {
+      "path": "assets/evidenceResolver-BR0Pwd_g.js",
+      "bytes": 3247,
+      "sha256": "197f59a001ae9707ff9403fb83bca8cabb012636f4d443ab34fca5b0ac6c9248"
+    },
+    {
+      "path": "assets/experienceSelection-B9INA7d4.js",
+      "bytes": 20321,
+      "sha256": "ff5570f7d0920199d3d5a436a9048f4d45024784c8427125eac3e8384cb40241"
+    },
+    {
+      "path": "assets/eye-off-D7X1Mbjw.js",
+      "bytes": 429,
+      "sha256": "3ec98eb2b7f3efee7493e841092b47b317241970a285630100d4e5732d4eb482"
+    },
+    {
+      "path": "assets/file-clock-CTBDJrW7.js",
+      "bytes": 353,
+      "sha256": "ee49a2c192ec2ef45c0be80cca462a12804fc2821b5f5562e5b88864b19ceb58"
+    },
+    {
+      "path": "assets/file-diff-Dnn_RJ0m.js",
+      "bytes": 331,
+      "sha256": "1124fde1fc253dfff3c6ef5b6c828fc722306ce9e81610f86d06789db9712a74"
+    },
+    {
+      "path": "assets/file-question-mark-Bq_3Mjgu.js",
+      "bytes": 334,
+      "sha256": "d2e2fad5899b1493e5eb74d6d740cc11f4744e45c97102630798bb276583c95e"
+    },
+    {
+      "path": "assets/fingerprint-pattern-BAoRAyIO.js",
+      "bytes": 610,
+      "sha256": "ca852435ea4ba75dbd2bf532bac7544711108ee642ac4e05fb13e8dd5f6dd9fa"
+    },
+    {
+      "path": "assets/focus-Cjf_rA1R.js",
+      "bytes": 332,
+      "sha256": "c71132f55bbbdb6b51c3088ec5c6bd810c6ac1078c0f2c72d17e22446451cb5f"
+    },
+    {
+      "path": "assets/footprints-Bv_-Mueu.js",
+      "bytes": 448,
+      "sha256": "911199769724b0dbda1bd5ce03968ff90c52e7a0d7c8eefb08c7a37ebdc5a636"
+    },
+    {
+      "path": "assets/git-branch-BxLz3w-8.js",
+      "bytes": 274,
+      "sha256": "a2e72554775a7345436c6c5a8c63cd5c9e062a7afc1628e64acb3d6254407621"
+    },
+    {
+      "path": "assets/git-compare-arrows-DLZ-O9Ca.js",
+      "bytes": 370,
+      "sha256": "f3cfd6f907f0626b55de84abf307a1f17460e092bfa464954d8c99e6d69e3030"
+    },
+    {
+      "path": "assets/image-MqCkOBfm.js",
+      "bytes": 268,
+      "sha256": "499abab6895378e6c3de15f09801c02fd033ba912a15853fb0b21e26102b270a"
+    },
+    {
+      "path": "assets/image-off-ofwSEeiy.js",
+      "bytes": 470,
+      "sha256": "ae7d0cc433ec595785a82a677fc8db76b1702ee9037136e6f0283caa9a214b5d"
+    },
+    {
+      "path": "assets/images-ClZ6iKAK.js",
+      "bytes": 369,
+      "sha256": "7eb72fff79a199987cbf6ecd679270ac36f1a038e1ceb0aee77a8264d3e9588b"
+    },
+    {
+      "path": "assets/index-ftnKm4sy.js",
+      "bytes": 194915,
+      "sha256": "7bdca76267362b21f698d4dbf9af69cb8887546b63f49c0ad45c764c5a43bce1"
+    },
+    {
+      "path": "assets/index-pYBg-1L1.css",
+      "bytes": 65942,
+      "sha256": "d7f0948dcb651dacacd091ad8636834a5c281eaad4bcd68a13cb7456625e8764"
+    },
+    {
+      "path": "assets/info-DTmkBxAQ.js",
+      "bytes": 198,
+      "sha256": "a088484603072c849854707f2e22b0a7056ae1cbde875e0725a46b0328d7578b"
+    },
+    {
+      "path": "assets/kaga-zoning-candidate.2b34dfa56a-5-BYeCDJ.jpg",
+      "bytes": 605721,
+      "sha256": "2b34dfa56ae479817d536d56172cb250f0b19efcf324e43c5b9ac15bf5f21772"
+    },
+    {
+      "path": "assets/kap-illustrated-map-v01.presentation-only-C8fAk3sf.png",
+      "bytes": 2189897,
+      "sha256": "943058d060d0e89c7e4fbd20ff8312e466d0951703822058a18bec5bd6588ad7"
+    },
+    {
+      "path": "assets/kap-operational-readiness-pack-candidate-v1-fX-JSELp.json",
+      "bytes": 272753,
+      "sha256": "d98ac168156d963b839b5f95a6836c8c011ce4afe7bd8318bf7d2150ebe07018"
+    },
+    {
+      "path": "assets/kap-v15-clean-basemap.c9cb10987e-xlKoYFng.jpg",
+      "bytes": 509622,
+      "sha256": "8ea14e972b68883ee372876d73bffd0a0750d5710610ddd3fc37005380b73d83"
+    },
+    {
+      "path": "assets/kap-v15-route-slide-1-D2UaRyMq.jpg",
+      "bytes": 263302,
+      "sha256": "cc1f55bfa9011ac159ab389d36a17b9fb8b2a9307c3cd40dde45333560e521f4"
+    },
+    {
+      "path": "assets/kap-v15-route-slide-2-Df7otIpe.jpg",
+      "bytes": 234146,
+      "sha256": "827cd20ec7d64f1048649f72574081c4d66fecd9aa158ce859030c8d76ea090d"
+    },
+    {
+      "path": "assets/kap-v15-route-slide-3-ChchRuqY.jpg",
+      "bytes": 210247,
+      "sha256": "65037c508ae997b850eac135838fcc84bfc3926775ffe52378d007a42c30bb27"
+    },
+    {
+      "path": "assets/kap-v15-route-slide-4-jn9eUe1m.jpg",
+      "bytes": 222484,
+      "sha256": "aa1a117abf8d4a075bdda79b57673b6b7c505d4d010a888c23cbc9e24619be62"
+    },
+    {
+      "path": "assets/kap-v15-route-slide-5-71CJlm2N.jpg",
+      "bytes": 238802,
+      "sha256": "69c34c591009a47915292f1dd7e9a9b1d3ab3ffbb55a8800b0edf22a09276531"
+    },
+    {
+      "path": "assets/kap-v15-route-slide-6-D9abKjm7.jpg",
+      "bytes": 262703,
+      "sha256": "2a0c3d91f9babec411312e6037abba43fe918b9d6fd08bdfe1c15be478f5f27c"
+    },
+    {
+      "path": "assets/landmark-DkZ7UN53.js",
+      "bytes": 399,
+      "sha256": "6596b74a4445e46442a601059c4eab698f3585fba57db43117f389780c699449"
+    },
+    {
+      "path": "assets/layers-delm1PGx.js",
+      "bytes": 420,
+      "sha256": "f6d5594c7f5eca60c50ee3c4ecec3ba2c67a351a342a6f9df8285ea3558e4e2c"
+    },
+    {
+      "path": "assets/link-2-BmQznItt.js",
+      "bytes": 241,
+      "sha256": "f7ce4658f0f3749c0bef773a2eadc029b3c2d7385a8d593beed7c8d9e8d213db"
+    },
+    {
+      "path": "assets/lock-keyhole-jMHXjGfs.js",
+      "bytes": 254,
+      "sha256": "3ea3c6d1e537e362605aae6bf8a597c6fde05eecdf86b7ba0c0fe6d30664a600"
+    },
+    {
+      "path": "assets/minus-BQLEwnpQ.js",
+      "bytes": 116,
+      "sha256": "a118fd2ee8d6138c1c3c3d2e64157b827f287fbe3d3264e2cc423565c3eba871"
+    },
+    {
+      "path": "assets/network-BM8NbGvv.js",
+      "bytes": 383,
+      "sha256": "691d080e97a4bb204a91230749e602ed6c362713a4c18bd236e6d65c2cbe7e26"
+    },
+    {
+      "path": "assets/octagon-alert-BITXvLux.js",
+      "bytes": 428,
+      "sha256": "8ce3d89cacaab7882c00702eee32589ba556a49d9fc43c41be12e32e1396c4ea"
+    },
+    {
+      "path": "assets/operationalEventRepository-C3124WyY.js",
+      "bytes": 20878,
+      "sha256": "7787ed01eeaf5523ad10db3b3de00e5b2a333e57f2e1bf72a85886c245434288"
+    },
+    {
+      "path": "assets/operationalReadinessPacks-D23ezPnK.js",
+      "bytes": 102648,
+      "sha256": "c69525fa1adc8d44ef6dc9be363f5c4757d28f6963ed9c8cda9644b4186df435"
+    },
+    {
+      "path": "assets/panels-top-left-BnhqAoou.js",
+      "bytes": 227,
+      "sha256": "42d897ddd80a7d9f2ab1c0a6b655cb512258cb9b9103432904ecdbb643df0ec5"
+    },
+    {
+      "path": "assets/plus-DvytHvJT.js",
+      "bytes": 152,
+      "sha256": "51937fa04f8487dcb6f285f890ad912c6b4a7061a07231d73788107fb0286150"
+    },
+    {
+      "path": "assets/presentation-0jwdXMU1.js",
+      "bytes": 233,
+      "sha256": "34490e02e698f644cf45db2b89074d329819f8d0764d1737738c6690cd07fb8b"
+    },
+    {
+      "path": "assets/projects/kap/design/mahmoud-d5-r1/previews/scene-01-142672d0d11e4c55b2e034b09820748a.png",
+      "bytes": 246686,
+      "sha256": "9ff5613cddbe7e26c7e482dea3918608a98b800646dc1fcc535dd37339df323c"
+    },
+    {
+      "path": "assets/projects/kap/design/mahmoud-d5-r1/previews/scene-02-943ec2bb6a664b95b94bb710aceedca8.png",
+      "bytes": 148794,
+      "sha256": "c55f1d3cab85041268db1c19701105fb8fa4c05bf080a0f64b5823a55d04925a"
+    },
+    {
+      "path": "assets/projects/kap/design/mahmoud-d5-r1/previews/scene-03-5da12d0fcacb4425b75eedc26ad7686e.png",
+      "bytes": 320118,
+      "sha256": "1bd790374b317ca82603d5556aac283095877e144927db285e28af2b8380eb4d"
+    },
+    {
+      "path": "assets/projects/kap/design/mahmoud-d5-r1/previews/scene-04-25240d63b1794ddfaa13261f479cf243.png",
+      "bytes": 375799,
+      "sha256": "1113626711107f39f64845f75cfaeb29293f95ebc3a46c1da2f2c3f126d7681d"
+    },
+    {
+      "path": "assets/projects/kap/design/mahmoud-d5-r1/previews/scene-05-a226fb51d938403ab6b4fc0ee5add869.png",
+      "bytes": 347711,
+      "sha256": "d56d734ddfd266c9ddaa3238a33f7ffea1f57120c700015d723391cbf2769a13"
+    },
+    {
+      "path": "assets/projects/kap/design/mahmoud-d5-r1/previews/scene-06-bc4087e0601548b8908a9239f9061fba.png",
+      "bytes": 353289,
+      "sha256": "daba00445bf7c14df974750836b22c17004b255552dd30a1caee5a98e494b98e"
+    },
+    {
+      "path": "assets/projects/kap/design/mahmoud-d5-r1/previews/scene-07-a97b89af3e394d8ca047584379254591.png",
+      "bytes": 369640,
+      "sha256": "9d8904d110adc1757e3103030084350287e9393112eca361244a4247d173c305"
+    },
+    {
+      "path": "assets/projects/kap/design/mahmoud-d5-r1/previews/scene-08-db939deaa1624eeab5b9b7321cf2804c.png",
+      "bytes": 416856,
+      "sha256": "458a558eec0a7b4c9ff564caa86199f76a220a208cd16d842c4635645ff37435"
+    },
+    {
+      "path": "assets/projects/kap/design/mahmoud-d5-r1/previews/scene-09-4f96ff1a023e45ed99926f690bc75936.png",
+      "bytes": 368049,
+      "sha256": "c3be10318adcb656242582b604d7944c9bf7bcface2b3e0b0e7ac388d18ed729"
+    },
+    {
+      "path": "assets/projects/kap/design/mahmoud-d5-r1/previews/scene-10-42d684ef163c4b7f9bad4ef2b70bfe94.png",
+      "bytes": 306618,
+      "sha256": "cf73a2282f3825e64c3f9eb522e69ba1def7e89f5871167f8d8e41b6f57378e9"
+    },
+    {
+      "path": "assets/projects/kap/design/mahmoud-d5-r1/previews/scene-11-6b40c3ab03784233a0aef141d0744047.png",
+      "bytes": 286707,
+      "sha256": "85b4b0c664cacef1c0075d422b58fea2258052a7a68eb856013ef12ec14aa0e2"
+    },
+    {
+      "path": "assets/projects/kap/design/mahmoud-d5-r1/previews/scene-12-b3a74aaced9343108283aa9d03c90fb0.png",
+      "bytes": 355691,
+      "sha256": "6b5cba464cc572189a99b4443c930180cf6da16159b5630c59c77ebedd3d53ba"
+    },
+    {
+      "path": "assets/projects/kap/design/mahmoud-d5-r1/previews/scene-13-522cad71c449438bafa837e2dd0893c9.png",
+      "bytes": 367523,
+      "sha256": "914b35ef4bbaf8a4b6e4fc663e409712f1172fcd071561131524db85d31ff762"
+    },
+    {
+      "path": "assets/projects/kap/design/mahmoud-d5-r1/previews/scene-14-835377bd4b9c44caa2db1de568135a5d.png",
+      "bytes": 335981,
+      "sha256": "8bd6b0a61247789412a8e0aeb57e95ac712a8f6322cbe06a526240c5f2b79688"
+    },
+    {
+      "path": "assets/projects/kap/design/mahmoud-d5-r1/previews/scene-15-1ea9bc4aa9fe4574a0ccdcd0aacc8a9c.png",
+      "bytes": 363900,
+      "sha256": "d5ae9330fc8087440e6d36425e5c7a02ac2c8c9286fd134bd32ba0c00b4dcfd3"
+    },
+    {
+      "path": "assets/projects/kap/design/mahmoud-d5-r1/previews/scene-16-d591c7b448db4d2d93c8f9f6742cd2da.png",
+      "bytes": 348976,
+      "sha256": "a362e564a9a69889e21dccb94393343d2509589989f2cef77054f4504c9c0c1f"
+    },
+    {
+      "path": "assets/projects/kap/design/mahmoud-d5-r1/previews/scene-17-2d0e4754faa84029816ce09a6b08ab81.png",
+      "bytes": 346394,
+      "sha256": "88c8f15c51ae722b8af4934f5e21eb295e55991ebb0dfb68a85103c6b23d2ab9"
+    },
+    {
+      "path": "assets/projects/kap/design/mahmoud-d5-r1/previews/scene-18-4b5d52f158ec4fb496e9e5312fe91433.png",
+      "bytes": 333782,
+      "sha256": "94366389bc83f961d76a623a95e901000a2e420f438f7d1946831272662c8b4d"
+    },
+    {
+      "path": "assets/projects/kap/design/mahmoud-d5-r1/previews/scene-19-952d77606bb9430c9f8afe804633e044.png",
+      "bytes": 365204,
+      "sha256": "4bb2d642e4432f6693dc96bc80b6c85076e5e47a380034687dccccbf2fd24619"
+    },
+    {
+      "path": "assets/projects/kap/design/mahmoud-d5-r1/previews/scene-20-57e9d15ee0c3498cb39a808d463757ae.png",
+      "bytes": 356595,
+      "sha256": "55b682ae1cdc1252191b66ed1a8b649217305b96d00faf6a97b66de6f328de7c"
+    },
+    {
+      "path": "assets/projects/kap/design/mahmoud-d5-r1/previews/scene-21-df1887ddf9e24e0d8ea1f88cf6e26b5a.png",
+      "bytes": 365378,
+      "sha256": "288ca76302dfb1f69032378f0ed3ba5a2219c9866591851be1e8d3d6324a7461"
+    },
+    {
+      "path": "assets/projects/kap/design/mahmoud-d5-r1/previews/scene-22-5ffaa5050c3d4bdaa28d7f67803df5ba.png",
+      "bytes": 323325,
+      "sha256": "0dda3d61111eb9ecc5657b389dd2ad2d551f8d20dcff65b8bdcf7263bd81820a"
+    },
+    {
+      "path": "assets/projects/kap/design/mahmoud-d5-r1/previews/scene-23-3c70368f75024dbda06a310a51208905.png",
+      "bytes": 405930,
+      "sha256": "5cccbefd5d46ef6ddfb31a592cdad4f1858ab5da0a7d1d5ace7ceda8368c0345"
+    },
+    {
+      "path": "assets/projects/kap/design/mahmoud-d5-r1/previews/scene-24-24410579819a455288370977200489f1.png",
+      "bytes": 253774,
+      "sha256": "013030f484783910b5876cb22d724d3db36d3324483dfefe21d8a11a66f1ebd7"
+    },
+    {
+      "path": "assets/projects/kap/design/mahmoud-d5-r1/previews/scene-25-9d9fe51bc10242e7b738c83d67f80cfd.png",
+      "bytes": 304941,
+      "sha256": "109606ba35ae177a19bf902d4f1ec750966e498b0c0342334ffefbab1a3741e2"
+    },
+    {
+      "path": "assets/projects/kap/design/mahmoud-d5-r1/previews/scene-26-425b0bd252184ac289d4b05d85750008.png",
+      "bytes": 388465,
+      "sha256": "9e8f6e51405d81c61e29db6ade492814eae438ff0cdef41de7c3b6aa0e087a26"
+    },
+    {
+      "path": "assets/projects/kap/design/mahmoud-d5-r1/previews/scene-27-227b55183ded429f95f2b96e07aa76f7.png",
+      "bytes": 340886,
+      "sha256": "109132e178633ca253c03b2c9ed4895026b4512b0ea756e2921971ecd02256b7"
+    },
+    {
+      "path": "assets/projects/kap/design/mahmoud-d5-r1/previews/scene-28-d2693d883dd0426a9d51a8bae1de71cb.png",
+      "bytes": 288447,
+      "sha256": "937627f6a0a113b36044b49eee627dd3f9b3a76b7346dbd790dcd95b9afb4bb1"
+    },
+    {
+      "path": "assets/projects/kap/design/mahmoud-d5-r1/previews/scene-29-33889a45a49d4260ae220dbdb017c1e5.png",
+      "bytes": 333633,
+      "sha256": "f1208ae96e495e13ca0a057fd2f9ec9864e3192169dcf2a7fffbf4005c5bb0e0"
+    },
+    {
+      "path": "assets/projects/kap/design/mahmoud-d5-r1/previews/scene-30-ca732a92b66b4793b746da7634a5c64e.png",
+      "bytes": 376719,
+      "sha256": "65af5d75fbcbb0f89340cac296f6774d7be06728c391298515bb418d1fdc315e"
+    },
+    {
+      "path": "assets/projects/kap/design/mahmoud-d5-r1/previews/scene-31-4a4db8f8872e4918a7a3a719e19d828c.png",
+      "bytes": 297900,
+      "sha256": "207376117f107712cdd2b582f28b2081cba32855e1716a76cc257411daa6efc9"
+    },
+    {
+      "path": "assets/projects/kap/design/mahmoud-d5-r1/previews/scene-32-e8b13ca7f7d64e54879984c99b98a743.png",
+      "bytes": 359079,
+      "sha256": "cdc753d68d14bc4bcd24c13a0346b35aeedca81bc2e37ef6ef2814ff49ffa159"
+    },
+    {
+      "path": "assets/projects/kap/design/mahmoud-d5-r1/previews/scene-33-6ce0417c21d94140880e705f6c1df635.png",
+      "bytes": 386584,
+      "sha256": "982511a78f0038bd5686925973b831a91878b16f3b483c8c2ba7df68a65a5817"
+    },
+    {
+      "path": "assets/radio-BhTUVySI.js",
+      "bytes": 373,
+      "sha256": "6c1480408310124a6157b7b0a3f8b20614ac35e04840419eb8e3cfe10ed68b78"
+    },
+    {
+      "path": "assets/redo-2-CY8ui8xP.js",
+      "bytes": 206,
+      "sha256": "cba549d75ff29ca4c3192c4d9ad8628d162f0b5d0e7c7c30e5783741d8f64ca8"
+    },
+    {
+      "path": "assets/refresh-ccw-BN4zAyAq.js",
+      "bytes": 320,
+      "sha256": "0b9c81749a7102ea57d543d2f33295a1dd25e19a916523542610b0e4f62a3199"
+    },
+    {
+      "path": "assets/refresh-cw-BFcb2UOx.js",
+      "bytes": 320,
+      "sha256": "82192af7e6b983310cbabe2f4a970f8752c42bb5e25a25c5ed9f4eb42cd43d27"
+    },
+    {
+      "path": "assets/ruler-CE6Z66zH.js",
+      "bytes": 397,
+      "sha256": "86040fb1cffc844e9f600769ceb537aee8a073b39ba757e6adce42afd286fd8d"
+    },
+    {
+      "path": "assets/scan-line-Dc2G3UCZ.js",
+      "bytes": 330,
+      "sha256": "f283b48b5c60f73e8a9fa3d49fbf191f3805a3866ee3cbe846fc9c83752f1fdf"
+    },
+    {
+      "path": "assets/shrink-B2nVicM4.js",
+      "bytes": 303,
+      "sha256": "4286635e4d6b8bbd7bf9e2fea90cb7f788113a5fc1c00b11a93f612b2b832818"
+    },
+    {
+      "path": "assets/spatialCommand-BWy1MUUz.js",
+      "bytes": 75758,
+      "sha256": "b08f296318fb13e8e4417368156eb782f0e3f2f5ad6fb0b16268bb37893f5f82"
+    },
+    {
+      "path": "assets/spatialCommand-BlXUZVSF.css",
+      "bytes": 59331,
+      "sha256": "b39a26d2b6165829a83db14229efde245f84135fab9e8048fd666040ab42d16b"
+    },
+    {
+      "path": "assets/target-DAtdrRuh.js",
+      "bytes": 220,
+      "sha256": "6edc4dfd853d3845dd199f4c411d82a164b92bfbc7abb515fb638435037cd0d5"
+    },
+    {
+      "path": "assets/undo-2-DYQSGhjr.js",
+      "bytes": 207,
+      "sha256": "aebb14f6370e1c190620a6227e53750e6f488b79c4b1032a01def25c30302ded"
+    },
+    {
+      "path": "assets/upload-Ci61qmvK.js",
+      "bytes": 229,
+      "sha256": "cc6217006181578d9599678ff7d34e8f47e327ae7c7731e2b38b997ec47940e1"
+    },
+    {
+      "path": "assets/user-round-check-CmKA-tDB.js",
+      "bytes": 228,
+      "sha256": "ffbfae9a0db95ca05849797e4746cb45c0f44cb2b71558bea30122a6d247489d"
+    },
+    {
+      "path": "assets/visualDirection-CpUO7kCr.js",
+      "bytes": 30301,
+      "sha256": "0b97db18a8b5d6bd045ae8dceabc86e5e5cd96849a1d784d375a8ab97d3da110"
+    },
+    {
+      "path": "assets/visualDirection-CtxBEVq0.css",
+      "bytes": 33998,
+      "sha256": "4f48c3bd6e5620f5525f33e2a59f2ae42a9a75ebf8597e7fc8374767e6cc17bb"
+    },
+    {
+      "path": "assets/waypoints-BIlDdROl.js",
+      "bytes": 414,
+      "sha256": "29c1f0989e502c9d895bc4a614496e2add71e8f53ee0202ef15319dcc9336a14"
+    },
+    {
+      "path": "index.html",
+      "bytes": 663,
+      "sha256": "a496e555e684270ef232e26073e527b54baf7f8cacc96b627f34a78c6df1df56"
+    },
+    {
+      "path": "kaga/assets/core/commemorative-gift-p010.webp",
+      "bytes": 63532,
+      "sha256": "6de7aac2bd8b8336e7affd0bbb044e54931707911282b1121151048797eed7b7"
+    },
+    {
+      "path": "kaga/assets/core/cover-p001.webp",
+      "bytes": 206568,
+      "sha256": "8bf9f6fee3f8c0bfa6a6d445e37a691f16b862e8ce32932ec2a15f344108173b"
+    },
+    {
+      "path": "kaga/assets/core/deputy-prince-shield-p030.webp",
+      "bytes": 88210,
+      "sha256": "2f305704778dbe42d72f36bbf152c909ee34081b2ebe272f20cedb3ce02095ff"
+    },
+    {
+      "path": "kaga/assets/core/guests-masterplan-p026.webp",
+      "bytes": 111356,
+      "sha256": "e081f73194c5d545a2c0a720a335eac6ca859e79a06b93229ea635352f8f66a6"
+    },
+    {
+      "path": "kaga/assets/core/iconic-photo-p009.webp",
+      "bytes": 92200,
+      "sha256": "f71a38c36c8e48a20f9e07c46b83c0fd659686603396c306582881c1dbe48ac1"
+    },
+    {
+      "path": "kaga/assets/core/launch-layers-p021.webp",
+      "bytes": 175362,
+      "sha256": "d6d4a61f0f11cd020b76368c7b2146104291216dc7b1060bdcf3e2fe3002bf26"
+    },
+    {
+      "path": "kaga/assets/core/launch-show-p020.webp",
+      "bytes": 83448,
+      "sha256": "0e5499610312fafca57541f71c1a71a6eb63a9ba92a43f0677ebe7b1a26c1c9d"
+    },
+    {
+      "path": "kaga/assets/core/mayor-masterplan-p008.webp",
+      "bytes": 119658,
+      "sha256": "53b9d7217b83cdd3cd24870f850a4ba312ffd4bd5daa04b0576fda07484fbea7"
+    },
+    {
+      "path": "kaga/assets/core/mayor-media-masterplan-p034.webp",
+      "bytes": 122720,
+      "sha256": "76f4c170ed7b0fa2305857a2a920124bfa62c66bab1684c81c3229ad078d120e"
+    },
+    {
+      "path": "kaga/assets/core/media-masterplan-p035.webp",
+      "bytes": 142816,
+      "sha256": "d0ef12f6ef6e916bd54c2052256cfaa94e2a28ff68a1d456080a8159feaa276d"
+    },
+    {
+      "path": "kaga/assets/core/media-minister-shield-p038.webp",
+      "bytes": 89472,
+      "sha256": "b8bfb3fc12794e5e9557aeb630d9ded0cbf3c40b4b2f92766f94f6702200a86b"
+    },
+    {
+      "path": "kaga/assets/core/press-day-p032.webp",
+      "bytes": 160022,
+      "sha256": "d7cea86c08c7c70ccc834fd2e20006e76007fa4fad742b722be5a356144bbaec"
+    },
+    {
+      "path": "kaga/assets/core/prince-day-p023.webp",
+      "bytes": 192612,
+      "sha256": "5c90a97b34aa3b285e6f30aaf58b9dbc17bd1811aa69437441f9083e899b6e0d"
+    },
+    {
+      "path": "kaga/assets/core/prince-masterplan-p025.webp",
+      "bytes": 105524,
+      "sha256": "82076e0faeb00abe9f97729da3845e9b3222ca6af6a32776b1ea031c3618c8c6"
+    },
+    {
+      "path": "kaga/assets/core/prince-shield-p029.webp",
+      "bytes": 79432,
+      "sha256": "60cd64ba51535f20a4435cd3ed000799434559e8a0b3c835b26597bf8cf4f323"
+    },
+    {
+      "path": "kaga/assets/core/royal-moment-p015.webp",
+      "bytes": 90634,
+      "sha256": "37e5b79ddb6577ec04fe5b394d24f68b5d3d7eea3233783b6ddd9b177dc58ffb"
+    },
+    {
+      "path": "kaga/assets/core/royal-shield-open-p017.webp",
+      "bytes": 57580,
+      "sha256": "0573e1ec95390949e6b9c34a516b4416a3cbf6d59948cba60f45ba1165315b09"
+    },
+    {
+      "path": "kaga/assets/core/royal-shield-p018.webp",
+      "bytes": 57400,
+      "sha256": "b68c1bd992cd025c2c7fc491069505b48a5a5e26e6051e16d6aa67513c73c9a2"
+    },
+    {
+      "path": "kaga/assets/core/saudi-ardah-p027.webp",
+      "bytes": 88662,
+      "sha256": "3a3a7436c63f56dfe28152ab51a287ac07ba78d9027d9e3b68621c72b3bc50af"
+    },
+    {
+      "path": "kaga/assets/core/vip-book-alt-p040.webp",
+      "bytes": 68172,
+      "sha256": "7c2efbccb5260c69e2d206c6ac13f816fd5752c8361e39791f860c17ccbe31c6"
+    },
+    {
+      "path": "kaga/assets/core/vip-book-p028.webp",
+      "bytes": 60214,
+      "sha256": "2c659dbce2b503bfcf2e2841a54d1171f12249a9577609b8f3388b7d55b227a9"
+    },
+    {
+      "path": "kaga/assets/core/vip-shield-alt-p039.webp",
+      "bytes": 65052,
+      "sha256": "33f174eb96bb321459cfab8ffc2047284c7bf073788cfedea524680ca82f539a"
+    },
+    {
+      "path": "kaga/assets/core/vip-shield-p031.webp",
+      "bytes": 65084,
+      "sha256": "6f5175396de48556b44ccd3850fb72b64aeb834aa93de91336556ff6d12f95f0"
+    },
+    {
+      "path": "kaga/assets/core/workers-masterplan-p007.webp",
+      "bytes": 134684,
+      "sha256": "0ed17847654c1b8d94d384689a27ef6758fac9d453ecd4db714f9716bc6a914d"
+    },
+    {
+      "path": "kaga/assets/experiences/dinner-p037.webp",
+      "bytes": 239024,
+      "sha256": "08449f1d0215cf4488570cf541b10a1af390f1587d506a83a271c8ad5b44327c"
+    },
+    {
+      "path": "kaga/assets/experiences/era-walk-p048.webp",
+      "bytes": 227518,
+      "sha256": "bda5a7cf9713a86d622cd8b8e1ce602923facf30866d483c3c0d51246436a000"
+    },
+    {
+      "path": "kaga/assets/experiences/era-walk-render-p049.webp",
+      "bytes": 145650,
+      "sha256": "e5926d3fddef431e253b04554009cb6bc05abfa24485f8e928a20a8ce607f284"
+    },
+    {
+      "path": "kaga/assets/experiences/garden-model-p045.webp",
+      "bytes": 90922,
+      "sha256": "359d605b84e89e303f6a00576719d0496981eec1ee31e2e427b17b1f48219d62"
+    },
+    {
+      "path": "kaga/assets/experiences/memorial-p046.webp",
+      "bytes": 110376,
+      "sha256": "355851fd9842859837d85e2d5c867d80272fb377757c81feded7392b0d5d139a"
+    },
+    {
+      "path": "kaga/assets/experiences/memory-corner-p047.webp",
+      "bytes": 169550,
+      "sha256": "10ba4b36c77de15eb9d0bfe28bb29a9d44ae5fefbe7bf61e46e9657a0e82321e"
+    },
+    {
+      "path": "kaga/assets/experiences/press-conference-p036.webp",
+      "bytes": 231438,
+      "sha256": "cc4a7d052a6029b412cf884a8b1fb9fa236ce191d0f5ee6ca5ba26c51b7a5e92"
+    },
+    {
+      "path": "kaga/assets/experiences/reception-p042.webp",
+      "bytes": 95008,
+      "sha256": "f408bf505145aca98924f29ac4ff20f2401e290f5725313bc77157d993e2b57a"
+    },
+    {
+      "path": "kaga/assets/experiences/vip-p043.webp",
+      "bytes": 208120,
+      "sha256": "69d17b5a94d1fb7878c4e6d2157994b8d33b75f958b5d83db3f9967f33e8bee1"
+    },
+    {
+      "path": "kaga/assets/gallery/dinner/angle-01-p100.webp",
+      "bytes": 231320,
+      "sha256": "2ddafefd7863ef8c679e0e1d89ec3727a8fd912f65e1e34f2ef545b70ab3b46b"
+    },
+    {
+      "path": "kaga/assets/gallery/dinner/angle-02-p101.webp",
+      "bytes": 103480,
+      "sha256": "d6014d0281a3b6f5151bdbe338c2728150a76562deb0ddc2ca1433998c2924c6"
+    },
+    {
+      "path": "kaga/assets/gallery/dinner/angle-03-p102.webp",
+      "bytes": 172538,
+      "sha256": "abb81aba3766a57bce0f60064b0fe664f2d71a81d11a04f0bc5461b569b12a8b"
+    },
+    {
+      "path": "kaga/assets/gallery/dinner/angle-04-p103.webp",
+      "bytes": 309428,
+      "sha256": "217e42391b0b7470d2cfaa42ebc2a85c39b90cb127b47c63e1b2074ba032536c"
+    },
+    {
+      "path": "kaga/assets/gallery/dinner/angle-05-p104.webp",
+      "bytes": 286022,
+      "sha256": "3fd6fb6471ca100b55a4cd201bed9111cfd4234c5c957d8cb1f7cebc1e3b8625"
+    },
+    {
+      "path": "kaga/assets/gallery/dinner/angle-06-p105.webp",
+      "bytes": 196098,
+      "sha256": "d2ec803f753e002cce93e47acfda359f02d9ff7d31b5a5a8bc32a3b8f59a7342"
+    },
+    {
+      "path": "kaga/assets/gallery/dinner/angle-07-p106.webp",
+      "bytes": 230250,
+      "sha256": "72b75e22f1e1e3ccae57f97bcd9188a56c4d15490b814e59874991bb7d0a695b"
+    },
+    {
+      "path": "kaga/assets/gallery/dinner/angle-08-p107.webp",
+      "bytes": 168144,
+      "sha256": "3efe0bada99a30bb77dabb2bc6f31277ca68cc386eb05eb9b6e34d1e02deacc7"
+    },
+    {
+      "path": "kaga/assets/gallery/era-walk/angle-01-p119.webp",
+      "bytes": 174776,
+      "sha256": "9791e2016dd3a6eccc42d8c0a23f24d93fcaaaa8bdd8105827b0552326029266"
+    },
+    {
+      "path": "kaga/assets/gallery/era-walk/angle-02-p120.webp",
+      "bytes": 190812,
+      "sha256": "0ff26a188729b3cba37bde053b997313d87d4cdc0380bb4c278e5b51b850a6d4"
+    },
+    {
+      "path": "kaga/assets/gallery/era-walk/angle-03-p121.webp",
+      "bytes": 149472,
+      "sha256": "76a5f3cf594f92dacee621e6636af755c7d7b6e0cbc3cbffb21959e5734268a4"
+    },
+    {
+      "path": "kaga/assets/gallery/era-walk/angle-04-p122.webp",
+      "bytes": 324424,
+      "sha256": "8b4834b52380a0560dcbc71be9a576b955cb1b233f4c7d439b0d7e4ab8a803ec"
+    },
+    {
+      "path": "kaga/assets/gallery/era-walk/angle-05-p123.webp",
+      "bytes": 227314,
+      "sha256": "3cee8ed4a719c4ddeef34c673a93b70f938f36c91b27505da0e822446bb557f5"
+    },
+    {
+      "path": "kaga/assets/gallery/era-walk/angle-06-p124.webp",
+      "bytes": 151416,
+      "sha256": "29243d618fc05c8dfe74ebbafad739b2fd9c2351edce0d562303d7e02525cfb1"
+    },
+    {
+      "path": "kaga/assets/gallery/era-walk/angle-07-p125.webp",
+      "bytes": 285882,
+      "sha256": "19352446c8b3b96b98eeb8ccea67dc9993dfc58374944aa46b94653a944e7f09"
+    },
+    {
+      "path": "kaga/assets/gallery/garden-model/angle-01-p116.webp",
+      "bytes": 158376,
+      "sha256": "d20e32b2f8eed9d938eb4386f77941dfc29f36bc220fb7c0580d230db58bd2c4"
+    },
+    {
+      "path": "kaga/assets/gallery/garden-model/angle-02-p117.webp",
+      "bytes": 140554,
+      "sha256": "543abfcb3235a828fcc04ff8bb14d313ab0f40cfaad8c6ea4ca1a5e0ef1d68ab"
+    },
+    {
+      "path": "kaga/assets/gallery/majlis/angle-01-p086.webp",
+      "bytes": 296652,
+      "sha256": "2b0a599c21f7f91127177ef836c7747a81710f4039e2d41a4a6248c088a6c6f0"
+    },
+    {
+      "path": "kaga/assets/gallery/majlis/angle-02-p087.webp",
+      "bytes": 102042,
+      "sha256": "83705b0ea5fa36ac3d4f7bc410a5e220994f9590c3ef08c07ab23d72d7dbbe70"
+    },
+    {
+      "path": "kaga/assets/gallery/majlis/angle-03-p088.webp",
+      "bytes": 122620,
+      "sha256": "a56134d8cbfb72ea7f715fc949837fc432fb4e9cbb5988cc60d3bc2fd9bbb365"
+    },
+    {
+      "path": "kaga/assets/gallery/majlis/angle-04-p089.webp",
+      "bytes": 193084,
+      "sha256": "02a892f0c0dc058bbb65d21f4423d85a62cbe2f4b5ceeee8e7200148500fcc75"
+    },
+    {
+      "path": "kaga/assets/gallery/majlis/angle-05-p090.webp",
+      "bytes": 238956,
+      "sha256": "b5ee1063f2742790313f58772205c526db90d900b2a7251cf65a1bba47de5e7b"
+    },
+    {
+      "path": "kaga/assets/gallery/majlis/angle-06-p091.webp",
+      "bytes": 238922,
+      "sha256": "b1ae337cdb5ea86b7c8a47b89d14846071fa1cf30cc30c83c7e6549304347d6b"
+    },
+    {
+      "path": "kaga/assets/gallery/majlis/angle-07-p092.webp",
+      "bytes": 235080,
+      "sha256": "387ebcb78a44f3be79d59e96affb0495cd1aa74499c706ed24674659bcd13a43"
+    },
+    {
+      "path": "kaga/assets/gallery/majlis/angle-08-p093.webp",
+      "bytes": 227918,
+      "sha256": "751fa71e95ccd3a0792a01e62a86f5fc3200c9c8bf5b972834653372758b10d5"
+    },
+    {
+      "path": "kaga/assets/gallery/majlis/angle-09-p094.webp",
+      "bytes": 252514,
+      "sha256": "63dc6a8e1687805ee4a0d002d15c4c74607edcd7d031e8af4d7c73f870fa02be"
+    },
+    {
+      "path": "kaga/assets/gallery/majlis/angle-10-p095.webp",
+      "bytes": 409062,
+      "sha256": "0fb66ab0f3915055810bccbd2486df80d90ab03aafcd760d7c3c24ccd8a574ba"
+    },
+    {
+      "path": "kaga/assets/gallery/majlis/angle-11-p096.webp",
+      "bytes": 227052,
+      "sha256": "4f2541af1f1c09e52952a34a2eefdc4b89aabc32f065096061626dc51a88c166"
+    },
+    {
+      "path": "kaga/assets/gallery/majlis/angle-12-p097.webp",
+      "bytes": 273806,
+      "sha256": "ebffda03268d3b199eb3cd7a2aff6add10beb216132f1587bca95dc4ba4d6963"
+    },
+    {
+      "path": "kaga/assets/gallery/majlis/angle-13-p098.webp",
+      "bytes": 272262,
+      "sha256": "f24e5a2bceef79549ae610dd65e2ec7ca0b353c9646caf21294ccd9b79465953"
+    },
+    {
+      "path": "kaga/assets/gallery/memorial/angle-01-p112.webp",
+      "bytes": 99292,
+      "sha256": "e7e933612651bc0e5b04020a51c92a1153c0eaa995ad1aa480b397a62aabbb8e"
+    },
+    {
+      "path": "kaga/assets/gallery/memorial/angle-02-p113.webp",
+      "bytes": 39148,
+      "sha256": "8297cd4b1195b4c3641d9fa8f96e3644f17b2343e53be6937d3780b33d7f6f18"
+    },
+    {
+      "path": "kaga/assets/gallery/memorial/angle-03-p114.webp",
+      "bytes": 35180,
+      "sha256": "e1c892a8692d9a7e162c4d0cedea03b3ee7e0ab7a6b52590ff21dd94588544eb"
+    },
+    {
+      "path": "kaga/assets/gallery/memory/angle-01-p109.webp",
+      "bytes": 102310,
+      "sha256": "ac6dc08193392a16c8f044b7f18ea8eb37759fe83a34516d212d0cb56a4ad955"
+    },
+    {
+      "path": "kaga/assets/gallery/memory/angle-02-p110.webp",
+      "bytes": 40202,
+      "sha256": "064d0fba8685f412883b505f4b3feafac9172994ecebe9337aa045824a11d76d"
+    },
+    {
+      "path": "kaga/assets/gallery/press/angle-01-p127.webp",
+      "bytes": 154776,
+      "sha256": "1e11a45b80c3983a28fc3604f4e4711d7224ed940dfea287d29f0c48c21af652"
+    },
+    {
+      "path": "kaga/assets/gallery/press/angle-02-p128.webp",
+      "bytes": 197224,
+      "sha256": "1d18a6325a0351bd6f1b1c59f267dce166fb4932b9534755b6e46b78d223b4fc"
+    },
+    {
+      "path": "kaga/assets/gallery/press/angle-03-p129.webp",
+      "bytes": 224656,
+      "sha256": "f1f176844e98c38379f567beb1584f66fe4b30162084da527754b1973f6ea318"
+    },
+    {
+      "path": "kaga/assets/gallery/press/angle-04-p130.webp",
+      "bytes": 191324,
+      "sha256": "1f6e98f522966c0f41b75eebb5462f96e151670dd78e42c784eaee5482a9c6d4"
+    },
+    {
+      "path": "kaga/assets/gallery/press/angle-05-p131.webp",
+      "bytes": 218198,
+      "sha256": "fcd0c1c5082377e2c9af979140ae2bbe2b2f22410cbf409ddc09e276ea6fc2fb"
+    },
+    {
+      "path": "kaga/assets/gallery/vip/angle-01-p079.webp",
+      "bytes": 306846,
+      "sha256": "ff7a1cced704f60c083d75a1bd145734bac9f223e1dd042d5ad6243456fdcc3c"
+    },
+    {
+      "path": "kaga/assets/gallery/vip/angle-02-p080.webp",
+      "bytes": 277236,
+      "sha256": "b6102e47c8b8252e53af2f48bfa1de49c396297fa0a4f55233e76ea8790c2493"
+    },
+    {
+      "path": "kaga/assets/gallery/vip/angle-03-p081.webp",
+      "bytes": 279488,
+      "sha256": "947cb99d1dc5976f2d61c851c26083df3af846e5fe8dc3da29848dfceb75ff63"
+    },
+    {
+      "path": "kaga/assets/gallery/vip/angle-04-p082.webp",
+      "bytes": 166070,
+      "sha256": "78cba491940ff2eb6390e5ce098ed6003f95a6844b42027fdc7b667bd53f1e3b"
+    },
+    {
+      "path": "kaga/assets/gallery/vip/angle-05-p083.webp",
+      "bytes": 190424,
+      "sha256": "b2a9a45e76a9f8389786d8cd914858af12e00fad2df4dcb2ed2fb41920a17f5d"
+    },
+    {
+      "path": "kaga/assets/gallery/vip/angle-06-p084.webp",
+      "bytes": 210412,
+      "sha256": "7f04dc547b768bc5c82596ec482ed45b676645bb522ac9d2c6426e9f21988f19"
+    },
+    {
+      "path": "kaga/assets/identity/badges-p066.webp",
+      "bytes": 45660,
+      "sha256": "46c49eae5fb586b2fc21c40036781209de8d5d2dbb71fa08f787e8c25f0291ca"
+    },
+    {
+      "path": "kaga/assets/identity/buses-p073.webp",
+      "bytes": 55348,
+      "sha256": "ea29561b13b733084733fbc48d42fe0fb6e4f2c962c95980cf20d280625421cb"
+    },
+    {
+      "path": "kaga/assets/identity/cleaning-uniform-p076.webp",
+      "bytes": 33594,
+      "sha256": "f1289aad6cd719c8a972609954bf528c0a10906460d7f51c07153cd6323a6110"
+    },
+    {
+      "path": "kaga/assets/identity/cubes-proposal-1-p071.webp",
+      "bytes": 70190,
+      "sha256": "d4c1d73f39b553cddfb79ccdd23f8d8a90dc7f7bd95c320181054e8e08926f25"
+    },
+    {
+      "path": "kaga/assets/identity/cubes-proposal-2-p072.webp",
+      "bytes": 60878,
+      "sha256": "612f24155f345ae0dc30fb1f5a07ccb88728bbf4d37878a85aa87414545557d1"
+    },
+    {
+      "path": "kaga/assets/identity/flags-proposal-1-p067.webp",
+      "bytes": 167390,
+      "sha256": "c598a0ba1adefd9f8e0cfec4e9dbe657418577993403be9e73be8a98f4d995ea"
+    },
+    {
+      "path": "kaga/assets/identity/flags-proposal-2-p068.webp",
+      "bytes": 48138,
+      "sha256": "07e81787d4ef6abc430f32a1ebf5612c15265b42ab61aa4256448993751e5917"
+    },
+    {
+      "path": "kaga/assets/identity/golf-cart-proposal-2-p075.webp",
+      "bytes": 49416,
+      "sha256": "79e95c0adee20e40cbbe5e7af4ab76994bfc6b8d7cd922efc870206fc8b4c719"
+    },
+    {
+      "path": "kaga/assets/identity/golf-carts-proposal-1-p074.webp",
+      "bytes": 48580,
+      "sha256": "3116b7ee499c5ec128352054927c9180d4b8d409e474a54d1afe843d2ca5b85c"
+    },
+    {
+      "path": "kaga/assets/identity/signage-proposal-1-p069.webp",
+      "bytes": 158322,
+      "sha256": "60c27babb96c61eb2caafe32f833441362bcbbb7927b1c0c321512a3b400cc10"
+    },
+    {
+      "path": "kaga/assets/identity/signage-proposal-2-p070.webp",
+      "bytes": 161970,
+      "sha256": "bde0d516dd92a0a219cb4d6d302ceb36d967d3537c2dbe9b5cef85906ff79940"
+    },
+    {
+      "path": "kaga/assets/identity/vests-proposal-1-p064.webp",
+      "bytes": 38078,
+      "sha256": "2e82ab4d803ec5da28f8aa213876629286df80db30e8aaa426db59308a052044"
+    },
+    {
+      "path": "kaga/assets/identity/vests-proposal-2-p065.webp",
+      "bytes": 42278,
+      "sha256": "924849e75adbe6e8f6bc4da89070ca70081b7ef1556fec73a43d0dcd5fd2f0db"
+    },
+    {
+      "path": "kaga/assets/invitations/control-panel-p061.webp",
+      "bytes": 48074,
+      "sha256": "499487c52d89f9caf1107035044a8481ad7aea2c1656b625732243532ee4633a"
+    },
+    {
+      "path": "kaga/assets/invitations/platform-p060.webp",
+      "bytes": 59698,
+      "sha256": "6fd3199cf8d8154c6b57706718fba74d8917d9f37957946c1483166f654e0433"
+    },
+    {
+      "path": "kaga/assets/invitations/printed-vip-p062.webp",
+      "bytes": 81374,
+      "sha256": "445294e01b96749de94279b9240b9d2445dea0c7fea250345af628fd39de0943"
+    },
+    {
+      "path": "kaga/assets/mobile/concept-p051.webp",
+      "bytes": 146802,
+      "sha256": "ac305bb63d97c7196350fd0b066e40803e5bf80b52fbd4797c676a8c05336d70"
+    },
+    {
+      "path": "kaga/assets/mobile/exterior-p054.webp",
+      "bytes": 146372,
+      "sha256": "5f6d0131cf06cc3c0cb02450155098975783b9c6e8647235de30e97789242f59"
+    },
+    {
+      "path": "kaga/assets/mobile/interactive-table-p056.webp",
+      "bytes": 117250,
+      "sha256": "bb67cf974c2f538778199c7c5b20c8855101748c51ff7da001d3a45a17d0640d"
+    },
+    {
+      "path": "kaga/assets/mobile/interior-screens-p055.webp",
+      "bytes": 154010,
+      "sha256": "b81aa0808fd27bc6bd3943b7671af6b407e0e9e4868affae5ec7731aab23e502"
+    },
+    {
+      "path": "kaga/assets/mobile/seed-kit-p058.webp",
+      "bytes": 96482,
+      "sha256": "4f3854b4ebdc755b66d3c7dc0dd04f9aeca1e7f26fcaf98670105efcd53147bd"
+    },
+    {
+      "path": "kaga/assets/mobile/seed-pencil-p057.webp",
+      "bytes": 82278,
+      "sha256": "49f66c2c3f9c940a31fb6b05d24e469af7a443b340659e26ab957afd9fe77efb"
+    },
+    {
+      "path": "local-assets/experience-scenes/PROJECT-KAP-OPENING-2026/design/DESIGN-ASSET-KAP-DIRECT-MESH-001-preview.png",
+      "bytes": 136487,
+      "sha256": "a738d41ba3ad70eb2603f7a45cb554dcb5151623b1f1cbb8e22904037d6258ac"
+    },
+    {
+      "path": "local-assets/experience-scenes/PROJECT-KAP-OPENING-2026/design/DESIGN-ASSET-KAP-DIRECT-MESH-001.glb",
+      "bytes": 3050340,
+      "sha256": "7b4147af359beba58e0864a85eb725569d08ebbe6eec3d2d93b443eb08c45bca"
+    },
+    {
+      "path": "local-assets/experience-scenes/PROJECT-KAP-OPENING-2026/design/DESIGN-ASSET-KAP-R2-PASSAGE-MESH-001.glb",
+      "bytes": 4586248,
+      "sha256": "2c3919345fb81a0a56fd9bcf0ca0ef0af18045345f16ba16d6d4c2ca55193371"
+    },
+    {
+      "path": "local-assets/experience-scenes/PROJECT-KAP-OPENING-2026/design/runtime-design-manifest.json",
+      "bytes": 1667,
+      "sha256": "bcf5bf78ebebaceb1341f1ea16c362c18f331566bc172de351f941bdcba5b063"
+    },
+    {
+      "path": "local-assets/experience-scenes/PROJECT-KAP-OPENING-2026/mahmoud-design-world/chunks/mahmoud-design-world-001.glb",
+      "bytes": 6523048,
+      "sha256": "4bd4790ce886a69d88d8da222c890e6f6a110f2e0784db038db46d1180186317"
+    },
+    {
+      "path": "local-assets/experience-scenes/PROJECT-KAP-OPENING-2026/mahmoud-design-world/chunks/mahmoud-design-world-002.glb",
+      "bytes": 3784672,
+      "sha256": "eb01804b5f8620e3f89f0d09f7f74c9ca5fb2fefbadaf40488ea55beb09bede8"
+    },
+    {
+      "path": "local-assets/experience-scenes/PROJECT-KAP-OPENING-2026/mahmoud-design-world/chunks/mahmoud-design-world-003.glb",
+      "bytes": 4721592,
+      "sha256": "ca01fc86400355fa3e6058f71128da39f52cd13b2484f4479903238592e93307"
+    },
+    {
+      "path": "local-assets/experience-scenes/PROJECT-KAP-OPENING-2026/mahmoud-design-world/chunks/mahmoud-design-world-004.glb",
+      "bytes": 4378488,
+      "sha256": "1c8b6024daa46642b37f53f002c1f349cd210a3648f7c0c1412626e5942c78cf"
+    },
+    {
+      "path": "local-assets/experience-scenes/PROJECT-KAP-OPENING-2026/mahmoud-design-world/chunks/mahmoud-design-world-005.glb",
+      "bytes": 2052564,
+      "sha256": "7b01dafae544b54bb1840da41be17b3cfa6f77be3dad5913acf63c7ba7c62ee2"
+    },
+    {
+      "path": "local-assets/experience-scenes/PROJECT-KAP-OPENING-2026/mahmoud-design-world/chunks/mahmoud-design-world-006.glb",
+      "bytes": 3169016,
+      "sha256": "cb38b786a617a16b4bb7ae861c7acc89287400ba2df7ec6838a5bac2316fab03"
+    },
+    {
+      "path": "local-assets/experience-scenes/PROJECT-KAP-OPENING-2026/mahmoud-design-world/chunks/mahmoud-design-world-007.glb",
+      "bytes": 3163160,
+      "sha256": "aa2da3038b47100cc75ff28bbb4e1633aec440a693e2cc3824d7932d2584308d"
+    },
+    {
+      "path": "local-assets/experience-scenes/PROJECT-KAP-OPENING-2026/mahmoud-design-world/chunks/mahmoud-design-world-008.glb",
+      "bytes": 2865076,
+      "sha256": "3fb836a39831b0922bfc85d516dd8fbdb3427ba439c00e261f461a0fdc31917f"
+    },
+    {
+      "path": "local-assets/experience-scenes/PROJECT-KAP-OPENING-2026/mahmoud-design-world/chunks/mahmoud-design-world-009.glb",
+      "bytes": 3016464,
+      "sha256": "0209d432cd16a2d6e4fe3a8b1f74ef07b5f19693064beb3bd84746606d8e9b2e"
+    },
+    {
+      "path": "local-assets/experience-scenes/PROJECT-KAP-OPENING-2026/mahmoud-design-world/chunks/mahmoud-design-world-010.glb",
+      "bytes": 4071400,
+      "sha256": "eaf995c2f589ad39615fd43a00c8174a592530a6858b2b13865f92ba9634b7f5"
+    },
+    {
+      "path": "local-assets/experience-scenes/PROJECT-KAP-OPENING-2026/mahmoud-design-world/chunks/mahmoud-design-world-011.glb",
+      "bytes": 4303696,
+      "sha256": "a4bd2f1bdbb921fea16ef7c50ff6d5388cfca30f802f0c2bf0fce914588f7616"
+    },
+    {
+      "path": "local-assets/experience-scenes/PROJECT-KAP-OPENING-2026/mahmoud-design-world/chunks/mahmoud-design-world-012.glb",
+      "bytes": 1142404,
+      "sha256": "fdbb367c274330e7ca168e1f44208e00b32be27ffee96928e3c7693ba1af73b5"
+    },
+    {
+      "path": "local-assets/experience-scenes/PROJECT-KAP-OPENING-2026/mahmoud-design-world/object-index.json",
+      "bytes": 12744874,
+      "sha256": "ac426f71088fd132f3fa3d42ed1648f774d3dae326169ef710940926b86cc945"
+    },
+    {
+      "path": "local-assets/experience-scenes/PROJECT-KAP-OPENING-2026/mahmoud-design-world/repair-register.json",
+      "bytes": 51523,
+      "sha256": "dc0f07501abcd1247b1efa5b74568782c512fe8bcfc5c6066efb6028640be54e"
+    },
+    {
+      "path": "local-assets/experience-scenes/PROJECT-KAP-OPENING-2026/mahmoud-design-world/runtime-design-world-manifest.json",
+      "bytes": 744441,
+      "sha256": "003acc0b323c635d9c41ea5d9e5f0771068073a7ec1a95848aae05cf7d8c7eea"
+    },
+    {
+      "path": "local-assets/experience-scenes/PROJECT-KAP-OPENING-2026/mahmoud-design-world/semantic-registry.json",
+      "bytes": 6101849,
+      "sha256": "772b1aa5d27b335a6b2ef8fcc91141afd3f861553622f0c2bed952a88396af4e"
+    },
+    {
+      "path": "runtime-manifests/kap-r2-native-design-revision-v1.json",
+      "bytes": 4051,
+      "sha256": "fea25b076cb273714b83d7c42dd60d8e2a62022b84b8457659d27191b724d39c"
+    },
+    {
+      "path": "runtime-manifests/mahmoud-d5-current-design-baseline-v1.json",
+      "bytes": 43095,
+      "sha256": "3bef639400476ce36e85ae7825c7bb7ca7df4edc5ed3789e003ce4d74102aee4"
+    },
+    {
+      "path": "runtime-manifests/mahmoud-studio-design-pack-v1.json",
+      "bytes": 16307,
+      "sha256": "98e19f60b9ad54fe540459ddf316ee586e01283aefed34eb0b682bcd47ba9211"
+    },
+    {
+      "path": "runtime-manifests/mahmoud-studio-design-pack-v2.json",
+      "bytes": 6046,
+      "sha256": "65506f005157ebfa2a3abcef54fe63157b14e1f7e021ae249098ff78ce2c4336"
+    },
+    {
+      "path": "visual-direction/kap-botanical-review.png",
+      "bytes": 1252431,
+      "sha256": "a4fc43c69b471b80f0a3bb4a516dba928d48f01d9fd479863d68e9dbf75e3d17"
+    },
+    {
+      "path": "visual-direction/kap-cover-review.png",
+      "bytes": 2144075,
+      "sha256": "e149861d413b641f62c9afdb21a1680b365dcdbc87dff7575d4fa0f3a3aced9c"
+    },
+    {
+      "path": "visual-direction/mayadeen-arabic-logo-review.png",
+      "bytes": 18128,
+      "sha256": "6f7e27301efd1bec29176ccf77987cd200f7898ddd0db54668d62103142888cf"
+    },
+    {
+      "path": "visual-direction/mayadeen-brandmark-review.png",
+      "bytes": 24930,
+      "sha256": "74078bec59bf0db28c36a69dac1e677f07519533d10f5916945334f070e4f16a"
+    }
+  ]
+}
